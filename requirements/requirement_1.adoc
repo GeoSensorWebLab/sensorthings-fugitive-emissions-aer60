@@ -1,0 +1,7 @@
+[width="90%",cols="2,6"]
+|===
+|*Requirement 1* {set:cellbgcolor:#CACCCE}|/req/thing/thing-entity +
+ +
+
+The SensorThings SHALL have a “Thing” entity that have the properties with the corresponding value and multiplicity listed in Table XX. {set:cellbgcolor:#FFFFFF}
+|===

@@ -1,0 +1,7 @@
+[width="90%",cols="2,6"]
+|===
+|*Requirement 12* {set:cellbgcolor:#CACCCE}|/req/observation/observation-entity +
+ +
+
+The "Observations" of the number-of-fugitive "Datastream" entity SHALL have the properties with the corresponding value and multiplicity listed in Table XX. {set:cellbgcolor:#FFFFFF}
+|===

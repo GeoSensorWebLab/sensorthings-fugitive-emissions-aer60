@@ -1,0 +1,13 @@
+[cols="1,4",width="90%"]
+|===
+2+|*Requirements Class* {set:cellbgcolor:#CACCCE}
+2+|http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/location {set:cellbgcolor:#FFFFFF}
+|Target type |JSON Object Instance
+|Dependency |http://www.opengis.net/spec/iot_sensing/1.1/req/location
+|*Requirement 3* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/location/location-entity +
+
+This requirement defines the mandatory properties of the "Location entity" of a reporting facility.
+|*Requirement 4* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/location/location-relation +
+
+This requirement defines the direct relation between the "Location" entity and the "Thing" entity.
+|===
