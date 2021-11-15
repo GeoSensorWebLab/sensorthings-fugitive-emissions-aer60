@@ -195,7 +195,7 @@ This requirement defines the mandatory properties and relations of the "FeatureO
 [[fig-thing-featureofinterest-relationship]]
 [.text-center, width="90%"]
 .Thing and FeatureOfInterest Relationship
-image::figures/FIGn.001.png[Thing and FeatureOfInterest Relationship]
+image::figures/FIGn.002.png[Thing and FeatureOfInterest Relationship]
 
 
 
