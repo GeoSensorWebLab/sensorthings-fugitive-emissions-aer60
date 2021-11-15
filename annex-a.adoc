@@ -5,15 +5,57 @@
 [NOTE]
 Ensure that there is a conformance class for each requirements class and a test for each requirement (identified by requirement name and number)
 
-=== Conformance Class A
+This section contains the conformance classes for the SensorThings API Read (Core). The SensorThings API service needs to pass all the conformance tests defined in this section.
 
-==== Requirement 1
-[cols=">20h,<80d",width="100%"]
+=== Conformance Class: Fugitive Emissions Management SensorThings API Thing Entity
+
+[width="100%",cols="25%,19%,56%",options="header",]
 |===
-|Test id: |/conf/conf-class-a/req-name-1
-|Requirement: |/req/req-class-a/req-name-1
-|Test purpose: | Verify that...
-|Test method: | Inspect...
+|*Conformance Class* |*/conf/thing* |
+|Requirements |
+req/thing/thing-entity
+
+req/thing/thing-relation
+
+|
+|Dependency | http://www.opengis.net/spec/iot_sensing/1.1/req/thing |
+|*Test* |/conf/thing |
+| |Requirement a|
+req/thing/thing-entity,
+
+req/thing/relation.
+
+| |Test purpose |Verify that the Thing entity has the mandatory properties and mandatory relations as defined in Fugitive Emissions Management SensorThings API Specification.
+| |Test method a|
+Inspect the full JSON object of the Thing entity sets to identify, if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors reported. Fail otherwise.
+
+Inspect the full JSON object of each Thing entity set to identify, if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors reported. Fail otherwise.
+
+| |Test type |Validation
 |===
 
-==== Requirement 2
+=== Conformance Class: Fugitive Emissions Management SensorThings API Location Entity
+
+|===
+|*Conformance Class*| */conf/location* |
+
+|Requirements |
+req/thing/location-entity
+
+req/thing/location-relation
+|
+|Dependency | http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/location[http://www.opengis.net/spec/iot_sensing/1.1/req/location] |
+|*Test* |/conf/location |
+| | Requirement a|
+req/thing/location-entity,
+
+req/thing/location-relation.
+
+| |Test purpose |Verify that the Location entity has the mandatory properties and mandatory relations as defined in Fugitive Emissions Management SensorThings API Specification.
+| |Test method a|
+Inspect the full JSON object of the Location entity sets to identify, if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors reported. Fail otherwise.
+
+Inspect the full JSON object of each Location entity set to identify, if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors reported. Fail otherwise.
+
+| |Test type | Validation
+|===
