@@ -3,5 +3,5 @@
 |*Requirement 11* {set:cellbgcolor:#CACCCE}|/req/observed-property/observed-property-entity +
  +
 
-The three mandatory "Datastream" entities (i.e., number-of-fugitive-emissions, fugitive-emissions-volume, and fugitive-emissions-mass) SHALL have a related fugitive-emissions "ObservedProperty" entity with the properties with the corresponding value and multiplicity listed in Table XX. {set:cellbgcolor:#FFFFFF}
+The three mandatory "Datastream" entities (i.e., number-of-fugitive-emissions, fugitive-emissions-volume, and fugitive-emissions-mass) SHALL have a related fugitive-emissions "ObservedProperty" entity with the properties with the corresponding value and multiplicity listed in <<table_req11>>. {set:cellbgcolor:#FFFFFF}
 |===
