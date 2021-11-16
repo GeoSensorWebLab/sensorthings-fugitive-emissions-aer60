@@ -3,5 +3,5 @@
 |*Requirement 8* {set:cellbgcolor:#CACCCE}|/req/datastream/fugitive-emissions-volume-relations +
  +
 
- The fugitive emissions volume "Datastream" entity SHALL have the direct relation between the "Datastream" entity and the entities listed in <<table_req8>>. {set:cellbgcolor:#FFFFFF}
+ The fugitive-emissions-volume "Datastream" entity SHALL have the direct relation between the "Datastream" entity and the entities listed in <<table_req8>>. {set:cellbgcolor:#FFFFFF}
 |===
