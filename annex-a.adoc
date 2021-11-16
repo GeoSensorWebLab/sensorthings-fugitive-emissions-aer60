@@ -1,11 +1,11 @@
-[appendix]
+[[appendixA]]
 :appendix-caption: Annex
 == Conformance Class Abstract Test Suite (Normative)
 
-This section contains the conformance classes for the Fugitive Emissions Management SensorThings API Read (Core).
-The Fugitive Emissions Management SensorThings API service needs to pass all the conformance tests defined in this section.
+This section contains the conformance classes for the OGC Integrated Methane Sensor Web for Emissions Management Best Practice - Part I - Fugitive Emissions Management based on AER Directive 60.
+The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to pass all the conformance tests defined in this section as well as the https://docs.ogc.org/is/18-088/18-088.html#_conformance_class_abstract_test_suite_normative[OGC SensorThings API Part 1: Sensing Version 1.1] Conformance Class Abstract Test Suit.
 
-=== Conformance Class: Fugitive Emissions Management SensorThings API Thing Entity
+=== Conformance Class: FEM STA Thing
 
 [cols=",,",]
 |==================================================================================================================================
@@ -13,22 +13,23 @@ The Fugitive Emissions Management SensorThings API service needs to pass all the
 |*Requirements* 2+| req/thing/thing-entity,
 
 req/thing/thing-relations.
-|*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/thing
+|*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/thing
 
-.5+| *Test* 2+| /conf/thing
-|Requirement | req/thing/thing-entity,
-
-req/thing/thing-relations.
-|Test purpose |Verify that the Thing entity has the mandatory properties and mandatory relations as defined in Fugitive Emissions Management SensorThings API Specification.
+.5+| *Test 1* 2+| /conf/thing/thing-entity
+|Requirement | req/thing/thing-entity
+|Test purpose |Verify that the Thing entity has mandatory properties as defined in Fugitive Emissions Management SensorThings API Specification.
 |Test method|
-Inspect the full JSON object of the Thing entity sets to identify, if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors reported. Fail otherwise.
+Inspect the entire JSON object of the Thing entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
+|Test type |Conformance
 
-Inspect the full JSON object of each Thing entity sets to identify, if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors reported. Fail otherwise.
-
+.5+| *Test 2* 2+| /conf/thing/thing-relations
+|Requirement | req/thing/thing-relations
+|Test purpose |Verify that the Thing entity has mandatory relations as defined in Fugitive Emissions Management SensorThings API Specification.
+|Test method|Inspect the entire JSON object of each Thing entity set to identify if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type |Conformance
 |==================================================================================================================================
 
-=== Conformance Class: Fugitive Emissions Management SensorThings API Location Entity
+=== Conformance Class: FEM STA Location
 
 [cols=",,",]
 |==================================================================================================================================
@@ -36,7 +37,7 @@ Inspect the full JSON object of each Thing entity sets to identify, if each enti
 |*Requirements* 2+| req/location/location-entity,
 
 req/location/location-relations.
-|*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/location
+|*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/location
 
 .5+| *Test* 2+| /conf/location
 |Requirement | req/location/location-entity,
@@ -51,7 +52,7 @@ Inspect the full JSON object of each Location entity sets to identify, if each e
 |Test type | Conformance
 |==================================================================================================================================
 
-=== Conformance Class: Fugitive Emissions Management SensorThings API Datastream Entity
+=== Conformance Class: FEM STA Datastream
 
 [cols=",,",]
 |==================================================================================================================================
@@ -67,7 +68,7 @@ Inspect the full JSON object of each Location entity sets to identify, if each e
 /req/datastream/fugitive-emissions-mass-entity,
 
 /req/datastream/fugitive-emissions-mass-relations.
-|*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/datastream
+|*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/datastream
 
 .5+| *Test* 2+| /conf/datastream
 |Requirement | /req/datastream/number-of-fugitive-emissions-entity,
@@ -90,14 +91,14 @@ Inspect the full JSON object of each Datastream entity sets to identify, if each
 |Test type | Conformance
 |==================================================================================================================================
 
-=== Conformance Class: Fugitive Emissions Management SensorThings API ObservedProperty Entity
+=== Conformance Class: FEM STA ObservedProperty Entity
 
 [cols=",,",]
 |==================================================================================================================================
 |*Conformance Class* 2+| */conf/observed-property*
 |*Requirements* 2+| req/observed-property/number-of-fugitive-emissions-entity
 
-|*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/observed-property
+|*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/observed-property
 
 .5+| *Test* 2+| /conf/observed-property
 |Requirement | req/observed-property/number-of-fugitive-emissions-entity
@@ -107,14 +108,14 @@ Inspect the full JSON object of the ObservedProperty entity sets to identify, if
 |Test type |Conformance
 |==================================================================================================================================
 
-=== Conformance Class: Fugitive Emissions Management SensorThings API Observation Entity
+=== Conformance Class: FEM STA Observation Entity
 
 [cols=",,",]
 |==================================================================================================================================
 |*Conformance Class* 2+| */conf/observation*
 |*Requirements* 2+| req/observation/observation-entity
 
-|*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/observation
+|*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/observation
 
 .5+| *Test* 2+| /conf/observation
 |Requirement | req/observation/observation-entity
@@ -124,14 +125,14 @@ Inspect the full JSON object of the Observation entity sets to identify, if each
 |Test type |Conformance
 |==================================================================================================================================
 
-=== Conformance Class: Fugitive Emissions Management SensorThings API FeatureOfInterest Entity
+=== Conformance Class: FEM STA FeatureOfInterest Entity
 
 [cols=",,",]
 |==================================================================================================================================
 |*Conformance Class* 2+| */conf/feature-of-interest*
 |*Requirements* 2+| req/feature-of-interest/feature-of-interest-entity
 
-|*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/feature-of-interest
+|*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/feature-of-interest
 
 .5+| *Test* 2+| /conf/feature-of-interest
 |Requirement | req/feature-of-interest/feature-of-interest-entity
@@ -141,14 +142,14 @@ Inspect the full JSON object of the FeatureOfInterest entity sets to identify, i
 |Test type |Conformance
 |==================================================================================================================================
 
-=== Conformance Class: Fugitive Emissions Management SensorThings API Sensor Entity
+=== Conformance Class: FEM STA Sensor Entity
 
 [cols=",,",]
 |==================================================================================================================================
 |*Conformance Class* 2+| */conf/sensor*
 |*Requirements* 2+| req/sensor/sensor-entity
 
-|*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/sensor
+|*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/sensor
 
 .5+| *Test* 2+| /conf/sensor
 |Requirement | req/sensor/sensor-entity
