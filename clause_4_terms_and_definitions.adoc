@@ -3,10 +3,40 @@ This document uses the terms defined in Sub-clause 5.3 of [OGC 06-121r8], which 
 
 For the purposes of this document, the following additional terms and definitions apply.
 
-=== *term name*
-text of the definition
-LSD
-ATS
-IANA
-JSON
-GeoJSON
+=== Symbols (and abbreviated terms)
+
+==== *API*
+Application Programming Interface
+
+==== *AER*
+Alberta Energy Regulator
+
+==== *ATS*
+Alberta Township Survey
+
+==== *LSD*
+Legal Subdivisions
+
+==== *IANA*
+Internet Assigned Numbers Authority
+
+==== *JSON*
+JavaScript Object Notation
+
+==== *ID*
+Identity Document
+
+==== *OGC*
+Open Geospatial Consortium
+
+==== *GeoJSON*
+Geographic JSON
+
+==== *FEMP*
+Fugitive Emissions Management Program
+
+==== *FEM-STA*
+Fugitive Emissions Management - SensorThings API
+
+==== *STA*
+SensorThings API
