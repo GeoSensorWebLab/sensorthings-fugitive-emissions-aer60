@@ -60,7 +60,7 @@ include::requirements/requirement_4.adoc[]
 [width="90%",options="header"]
 |===
 |Entity type |Relation |Description
-|Thing |Many optional |Multiple reporting facility "Thing" MAY locate at the same "Location". A Location MAY not have a reporting facility "Thing".
+|Thing |Many optional |Multiple reporting facilities "Thing" MAY be located at the same "Location". A Location MAY not have a reporting facility "Thing".
 |===
 
 === Requirement Class: Datastream
@@ -68,7 +68,7 @@ include::requirements/requirement_4.adoc[]
 include::requirements/requirements_class_3.adoc[]
 
 ==== Requirement 5
-This requirement defines the mandatory properties and relations of the number-of-fugitive-emissions "Datastream" of the reporting facility.
+This requirement defines the mandatory properties of the number-of-fugitive-emissions "Datastream" of the reporting facility.
 
 include::requirements/requirement_5.adoc[]
 [#table_req5,reftext='{table-caption} {counter:table-num}']
