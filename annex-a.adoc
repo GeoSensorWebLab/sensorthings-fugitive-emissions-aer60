@@ -5,7 +5,7 @@
 This section contains the conformance classes for the OGC Integrated Methane Sensor Web for Emissions Management Best Practice - Part I - Fugitive Emissions Management based on AER Directive 60.
 The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to pass all the conformance tests defined in this section as well as the https://docs.ogc.org/is/18-088/18-088.html#_conformance_class_abstract_test_suite_normative[OGC SensorThings API Part 1: Sensing Version 1.1] Conformance Class Abstract Test Suit.
 
-=== Conformance Class: FEM STA Thing
+=== Conformance Class: FEM-STA Thing
 
 [cols=",,",]
 |==================================================================================================================================
@@ -29,7 +29,7 @@ Inspect the entire JSON object of the Thing entity set to identify if each entit
 |Test type |Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM STA Location
+=== Conformance Class: FEM-STA Location
 
 [cols=",,",]
 |==================================================================================================================================
@@ -39,20 +39,23 @@ Inspect the entire JSON object of the Thing entity set to identify if each entit
 req/location/location-relations.
 |*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/location
 
-.5+| *Test* 2+| /conf/location
-|Requirement | req/location/location-entity,
-
-req/location/location-relations.
-|Test purpose |Verify that the Location entity has the mandatory properties and mandatory relations as defined in Fugitive Emissions Management SensorThings API Specification.
+.5+| *Test 3* 2+| /conf/location/location-entity
+|Requirement | req/location/location-entity
+|Test purpose |Verify that the Location entity has the mandatory properties as defined in Fugitive Emissions Management SensorThings API Specification.
 |Test method a|
-Inspect the full JSON object of the Location entity sets to identify, if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors reported. Fail otherwise.
+Inspect the full JSON object of the Location entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
+|Test type | Conformance
 
-Inspect the full JSON object of each Location entity sets to identify, if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors reported. Fail otherwise.
+.5+| *Test 4* 2+| /conf/location/location-relations
+|Requirement | req/location/location-relations
+|Test purpose |Verify that the Location entity has the mandatory relations as defined in Fugitive Emissions Management SensorThings API Specification.
+|Test method a|
+Inspect the full JSON object of each Location entity set to identify if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 
 |Test type | Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM STA Datastream
+=== Conformance Class: FEM-STA Datastream
 
 [cols=",,",]
 |==================================================================================================================================
@@ -84,14 +87,14 @@ Inspect the full JSON object of each Location entity sets to identify, if each e
 /req/datastream/fugitive-emissions-mass-relations.
 |Test purpose | Verify that each Datastream entity has the mandatory properties and mandatory relations as defined in Fugitive Emissions Management SensorThings API Specification.
 |Test method a|
-Inspect the full JSON object of the Datastream entity sets to identify, if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors reported. Fail otherwise.
+Inspect the full JSON object of the Datastream entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 
-Inspect the full JSON object of each Datastream entity sets to identify, if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors reported. Fail otherwise.
+Inspect the full JSON object of each Datastream entity set to identify if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 
 |Test type | Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM STA ObservedProperty Entity
+=== Conformance Class: FEM-STA ObservedProperty Entity
 
 [cols=",,",]
 |==================================================================================================================================
@@ -104,11 +107,11 @@ Inspect the full JSON object of each Datastream entity sets to identify, if each
 |Requirement | req/observed-property/number-of-fugitive-emissions-entity
 |Test purpose |Verify that the ObservedProperty entity has the mandatory properties and mandatory relation as defined in Fugitive Emissions Management SensorThings API Specification.
 |Test method a|
-Inspect the full JSON object of the ObservedProperty entity sets to identify, if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors reported. Fail otherwise.
+Inspect the full JSON object of the ObservedProperty entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type |Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM STA Observation Entity
+=== Conformance Class: FEM-STA Observation Entity
 
 [cols=",,",]
 |==================================================================================================================================
@@ -121,11 +124,11 @@ Inspect the full JSON object of the ObservedProperty entity sets to identify, if
 |Requirement | req/observation/observation-entity
 |Test purpose |Verify that the Observation entity has the mandatory properties and mandatory relation as defined in Fugitive Emissions Management SensorThings API Specification.
 |Test method a|
-Inspect the full JSON object of the Observation entity sets to identify, if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors reported. Fail otherwise.
+Inspect the full JSON object of the Observation entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type |Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM STA FeatureOfInterest Entity
+=== Conformance Class: FEM-STA FeatureOfInterest Entity
 
 [cols=",,",]
 |==================================================================================================================================
@@ -138,11 +141,11 @@ Inspect the full JSON object of the Observation entity sets to identify, if each
 |Requirement | req/feature-of-interest/feature-of-interest-entity
 |Test purpose |Verify that the FeatureOfInterest entity has the mandatory properties and mandatory relation as defined in Fugitive Emissions Management SensorThings API Specification.
 |Test method a|
-Inspect the full JSON object of the FeatureOfInterest entity sets to identify, if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors reported. Fail otherwise.
+Inspect the full JSON object of the FeatureOfInterest entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type |Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM STA Sensor Entity
+=== Conformance Class: FEM-STA Sensor Entity
 
 [cols=",,",]
 |==================================================================================================================================
@@ -151,10 +154,17 @@ Inspect the full JSON object of the FeatureOfInterest entity sets to identify, i
 
 |*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/sensor
 
-.5+| *Test* 2+| /conf/sensor
+.5+| *Test 3* 2+| /conf/sensor
 |Requirement | req/sensor/sensor-entity
 |Test purpose |Verify that the Sensor entity has the mandatory properties and mandatory relation as defined in Fugitive Emissions Management SensorThings API Specification.
 |Test method a|
-Inspect the full JSON object of the Sensor entity sets to identify, if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors reported. Fail otherwise.
+Inspect the full JSON object of the Sensor entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
+|Test type |Conformance
+
+.5+| *Test 3* 2+| /conf/sensor
+|Requirement | req/sensor/sensor-entity
+|Test purpose |Verify that the Sensor entity has the mandatory properties and mandatory relation as defined in Fugitive Emissions Management SensorThings API Specification.
+|Test method a|
+Inspect the full JSON object of the Sensor entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type |Conformance
 |==================================================================================================================================
