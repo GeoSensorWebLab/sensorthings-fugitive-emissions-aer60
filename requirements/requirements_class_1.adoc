@@ -7,7 +7,7 @@
 |*Requirement 1* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/thing/thing-entity +
 
 This requirement defines the mandatory properties of a reporting facility (as a Thing).
-|*Requirement 2* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/thing/thing-relation +
+|*Requirement 2* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/thing/thing-relations +
 
 This requirement defines the direct relation between the "Thing" entity and the "Location" and "Datastream" entities.
 |===

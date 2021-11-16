@@ -1,9 +1,9 @@
 [cols="1,4",width="90%"]
 |===
 2+|*Requirements Class* {set:cellbgcolor:#CACCCE}
-2+|http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/location {set:cellbgcolor:#FFFFFF}
+2+|http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/observation {set:cellbgcolor:#FFFFFF}
 |Target type |JSON Object Instance
-|Dependency |http://www.opengis.net/spec/iot_sensing/1.1/req/datastream
-|*Requirement 12* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/datastream/number-of-fugitive-emissions-entity +
+|Dependency |http://www.opengis.net/spec/iot_sensing/1.1/req/observation
+|*Requirement 12* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/observation/observation-entity +
 
 |===
