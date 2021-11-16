@@ -3,5 +3,5 @@
 |*Requirement 14* {set:cellbgcolor:#CACCCE}|/req/sensor/sensor-entity +
  +
 
-A "Sensor" in this best practice is a an observation process describing the Fugitive Emissions Management Program (FEMP) that generates the observation result. {set:cellbgcolor:#FFFFFF}
+ A "Sensor" in this best practice is an observation process describing the Fugitive Emissions Management Program (FEMP) that generates the observation result. {set:cellbgcolor:#FFFFFF}
 |===
