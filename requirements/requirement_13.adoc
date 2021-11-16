@@ -3,5 +3,5 @@
 |*Requirement 13* {set:cellbgcolor:#CACCCE}|/req/feature-of-interest/feature-of-interest-entity +
  +
 
-The "FeatureOfInterest" entity of the "Observations" of the three mandatory "Datastreams" SHALL have the properties with the corresponding value and multiplicity listed in Table XX. {set:cellbgcolor:#FFFFFF}
+The "FeatureOfInterest" entity of the "Observations" of the three mandatory "Datastreams" SHALL have the properties with the corresponding value and multiplicity listed in <<table_req13>>. {set:cellbgcolor:#FFFFFF}
 |===
