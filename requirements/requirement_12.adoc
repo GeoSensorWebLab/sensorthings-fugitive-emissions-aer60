@@ -3,5 +3,5 @@
 |*Requirement 12* {set:cellbgcolor:#CACCCE}|/req/observation/observation-entity +
  +
 
-The "Observations" of the number-of-fugitive "Datastream" entity SHALL have the properties with the corresponding value and multiplicity listed in <<table_req12>>. {set:cellbgcolor:#FFFFFF}
+The "Observations" of the number-of-fugitive "Datastream" entity SHALL have properties with the corresponding value and multiplicity listed in <<table_req12>>. {set:cellbgcolor:#FFFFFF}
 |===
