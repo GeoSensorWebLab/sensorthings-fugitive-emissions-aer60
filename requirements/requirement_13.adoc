@@ -1,7 +1,7 @@
 [width="90%",cols="2,6"]
 |===
-|*Requirement 12* {set:cellbgcolor:#CACCCE}|/req/observation/observation-entity +
+|*Requirement 13* {set:cellbgcolor:#CACCCE}|/req/feature-of-interest/feature-of-interest-entity +
  +
 
-The "Observations" of the number-of-fugitive "Datastream" entity SHALL have the properties with the corresponding value and multiplicity listed in Table XX. {set:cellbgcolor:#FFFFFF}
+The "FeatureOfInterest" entity of the "Observations" of the three mandatory "Datastreams" SHALL have the properties with the corresponding value and multiplicity listed in Table XX. {set:cellbgcolor:#FFFFFF}
 |===

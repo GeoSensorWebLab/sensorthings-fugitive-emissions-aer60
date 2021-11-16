@@ -4,6 +4,6 @@
 2+|http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/sensor {set:cellbgcolor:#FFFFFF}
 |Target type |JSON Object Instance
 |Dependency |http://www.opengis.net/spec/iot_sensing/1.1/req/sensor
-|*Requirement 13* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/sensor/sensor-entity +
+|*Requirement 14* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/sensor/sensor-entity +
 
 |===

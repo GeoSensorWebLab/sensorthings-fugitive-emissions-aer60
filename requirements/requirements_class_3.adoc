@@ -1,25 +1,25 @@
 [cols="1,4",width="90%"]
 |===
 2+|*Requirements Class* {set:cellbgcolor:#CACCCE}
-2+|http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/location {set:cellbgcolor:#FFFFFF}
+2+|http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/datastream {set:cellbgcolor:#FFFFFF}
 |Target type |JSON Object Instance
 |Dependency |http://www.opengis.net/spec/iot_sensing/1.1/req/datastream
 |*Requirement 5* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/datastream/number-of-fugitive-emissions-entity +
 
 This requirement defines the mandatory properties of the number of fugitive emissions "Datastream" entity of a reporting facility "Thing".
-|*Requirement 6* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/datastream/number-of-fugitive-emissions-relation +
+|*Requirement 6* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/datastream/number-of-fugitive-emissions-relations +
 
 This requirement defines the direct relation between the number of fugitive emissions "Datastream" entity and the "Thing", "Sensor", "ObservedProperty", and "Observation" entity.
 |*Requirement 7* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/datastream/fugitive-emissions-volume-entity +
 
 This requirement defines the mandatory properties of the fugitive emissions volume "Datastream" entity of a reporting facility "Thing".
-|*Requirement 8* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/datastream/fugitive-emissions-volume-relation +
+|*Requirement 8* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/datastream/fugitive-emissions-volume-relations +
 
 This requirement defines the direct relation between the fugitive emissions volume "Datastream" entity and the "Thing", "Sensor", "ObservedProperty", and "Observation" entity.
 |*Requirement 9* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/datastream/fugitive-emissions-mass-entity +
 
 This requirement defines the mandatory properties of the fugitive emissions mass "Datastream" entity of a reporting facility "Thing".
-|*Requirement 10* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/datastream/fugitive-emissions-mass-relation +
+|*Requirement 10* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/datastream/fugitive-emissions-mass-relations +
 
 This requirement defines the direct relation between the fugitive emissions mass "Datastream" entity and the "Thing", "Sensor", "ObservedProperty", and "Observation" entity.
 |===
