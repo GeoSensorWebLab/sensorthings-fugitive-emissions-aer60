@@ -5,3 +5,8 @@ For the purposes of this document, the following additional terms and definition
 
 === *term name*
 text of the definition
+LSD
+ATS
+IANA
+JSON
+GeoJSON

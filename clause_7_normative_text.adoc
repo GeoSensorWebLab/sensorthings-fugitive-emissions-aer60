@@ -1,27 +1,29 @@
 == Fugitive Emissions Management SensorThings API Specification - Part I - AER Directive 60
-This chapter describes the entities, their properties and values, and their relations for fugitive emissions reporting requirements based on AER Directive 60.
+This chapter describes the entities, their properties and values, and their relations for fugitive emissions reporting requirements based on https://www.aer.ca/regulating-development/rules-and-directives/directives/directive-060[AER Directive 60].
 
 === Requirement Class: Thing
 
 include::requirements/requirements_class_1.adoc[]
 
 ==== Requirement 1
-This requirement defines the mandatory properties and relations of a reporting facility (as a Thing).
+This requirement defines the mandatory properties of a reporting facility (as a Thing).
 
 include::requirements/requirement_1.adoc[]
+[#table_req1,reftext='{table-caption} {counter:table-num}']
 .Properties of a reporting facility Thing entity
 [width="90%",options="header"]
 |===
-|Names |Definition |Data types and values |Multiplicity and use
+|Name |Definition |Data types and values |Multiplicity and use
 |name |the facility ID of the reporting facility |character string type, and the value shall be a valid AER facility ID  |One
 |description |a short description of the facility |character string type |One
-|properties |the well ID or site ID that is associated with the facility ID  |a JSON object that has a key of "well or site id" and the corresponding value shall be a valid AER well id or site id |One
+|properties |the well ID or site ID that is associated with the facility ID  |a JSON object that has a key of "well or site id" and the corresponding value shall be a valid AER well ID or site ID |One
 |===
 
 ==== Requirement 2
 This requirement defines the direct relation between the "Thing" entity and the "Location" and "Datastream" entities.
 
 include::requirements/requirement_2.adoc[]
+[#table_req2,reftext='{table-caption} {counter:table-num}']
 .Direct relation between a reporting facility Thing entity and other entity types
 [width="90%",options="header"]
 |===
@@ -39,9 +41,10 @@ This requirement defines the mandatory properties and relations of the "Location
 
 include::requirements/requirement_3.adoc[]
 .Properties of a reporting facility Location entity
+[#table_req3,reftext='{table-caption} {counter:table-num}']
 [width="90%",options="header"]
 |===
-|Names |Definition |Data types and values |Multiplicity and use
+|Name |Definition |Data types and values |Multiplicity and use
 |name |the reporting facility's legal description of the Legal Subdivision (LSD) according to the https://www.alberta.ca/alberta-township-survey-system.aspx[Alberta Township Survey (ATS)] system |character string type, and the value shall be a valid legal description of the LSD based on the ATS system |One
 |description |the description about the Location |character string type |One
 |encodingType |the IANA media type for GeoJSON  |character string type, and the value shall be "application/geo+json" |One

@@ -3,5 +3,5 @@
 |*Requirement 3* {set:cellbgcolor:#CACCCE}|/req/location/location-entity +
  +
 
-The SensorThings SHALL have a "Location" entity that have the properties with the corresponding value and multiplicity listed in Table XX. {set:cellbgcolor:#FFFFFF}
+The SensorThings SHALL have a "Location" entity that has the properties with the corresponding value and multiplicity listed in <<table_req3>>. {set:cellbgcolor:#FFFFFF}
 |===
