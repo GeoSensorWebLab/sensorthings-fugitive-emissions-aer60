@@ -1,5 +1,20 @@
 == Scope
-[NOTE]
-====
-Insert Scope text here. Give the subject of the document and the aspects of that scope covered by the document.
-====
+This OGC Best Practice (OGC BP) defines a SensorThings API for fugitive methane emissions management. This OGC BP is the first part of the OGC Methane Emissions Management BPs. We plan to publish a series of OGC BPs for methane emissions management, including fugitive and venting emissions. The goal is to develop the building blocks for an integrated Methane Emissions Sensor Web, enabling seamless flows of observation data from SensorThings nodes with heterogeneous sensing sources (i.e., multiple disparate methane observation systems), to SensorThings nodes with analytics-ready data (i.e., a aggregated methane emissions datalake), and eventually to SensorThings nodes with compliance-ready data (i.e., data complianct to various regulatory organizations in different jurisdictions).
+
+This OGC BP document provides a data model and API for the exchange of fugitive emissions observation data and the necessary metadata, both within and between different organizations. Regulations play a critical role for methane emissions reduction. This OGC BP follows the Alberta Energy Regulator's regulatory requirement for fugitive emissions management https://static.aer.ca/prd/documents/directives/Directive060.pdf[[AER Directive 60]]. For example, it can be used for leak detection and repair service providers to prepare and exchange fugitive emissions observation data with the oil and gas producers. Oil and gas producers can also use the OGC BP to exchange fugitive emissions data within the organization and with regulators.
+
+Figure below shows the roadmap of the different OGC BPs to be developed and their relationship.
+
+[[fig-methane-emisssions-bp-roadmap]]
+[.text-center, width="90%"]
+.Methane Emissions Sensor Web Best Practice Roadmap
+image::figures/FIGn.001.png[Methane Emissions Sensor Web Roadmap]
+
+=== Design Goals
+
+The OGC BP and its series have the following design goals:
+
+. Modular: the different parts a methane emissions management system can be separated and reassembled, with the benefit of flexibility, future-proof, and variety in use.
+. Simple: the design is concise, easily testable, easy to implement, and developer friendly.
+. Interoperable: whenever possible follows international open standards
+. Scalable: is able to grow in terms of number of sensors, types of sensors, and volume of data without sacrificing performances.
