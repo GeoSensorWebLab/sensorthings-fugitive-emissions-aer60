@@ -197,11 +197,7 @@ This requirement defines the mandatory properties and relations of the "FeatureO
 .Thing and FeatureOfInterest Relationship
 image::figures/FIGn.002.png[Thing and FeatureOfInterest Relationship]
 
-
-
 An Observation results in a value being assigned to a phenomenon. The phenomenon is a property of a feature, the latter being the FeatureOfInterest of the Observation [OGC and ISO 19156:2011]. In the context of this best practice, the FeatureOfInterest is the site can be the Location of the Thing. For example, the FeatureOfInterest of a wifi-connect thermostat can be the Location of the thermostat (i.e., the living room where the thermostat is located in). In the case of remote sensing, the FeatureOfInterest can be the geographical area or volume that is being sensed.
-
-
 
 include::requirements/requirement_13.adoc[]
 .Properties of a FeatureOfInterest entity
@@ -211,4 +207,22 @@ include::requirements/requirement_13.adoc[]
 |phenomenonTime |The time period of when the "Observation" happens. |TM_Period |One
 |result |the number of fugitive emissions |Integer |One
 |parameters |Key-value pairs describing an event-specifc parameter.  |the value SHALL be a JSON object, with a key of "Survey or Screening Type", and the corresponding value SHALL be one of the following: "ALTFEMP", "SITESURVEY", "TANKSURVEY", "WELLSCREENING" |One
+|===
+
+=== Requirement Class: Sensor
+
+include::requirements/requirements_class_7.adoc[]
+
+==== Requirement 14
+This requirement defines the mandatory properties and relations of the "Sensor" entity. The "Sensor" entity in this best practice is not an instrument, but rather it SHALL be an observation process file:///Users/steveliang/Downloads/10-004r3_Topic_20_Observations_and_Measurements.pdf#page=20[[ISO/OGC 19156:2001 OM_Process]] describing the Fugitive Emissions Management Program (FEMP) that generates the observation result.
+
+include::requirements/requirement_14.adoc[]
+.Properties of a Sensor entity
+[width="90%",options="header"]
+|===
+|Names |Definition |Data types and values |Multiplicity and use
+|name |a property provides a label for Sensor entity, and it should be a descriptive name of the FEMP that generate the fugitive emissions observation results. |CharacterString |One
+|description |the description of the FEMP  |CharacterString |One
+|encodingType |the encoding type of the metadata property. |character string type, and the value shall be "application/pdf" or "text/html" |One
+|metadata |its value depends on the value of the encodingType. Its value SHALL be a resolvable URI, linking to either a PDF document or an HTML page, describing the FEMP used to generate the fugitive emissions observation results. |the value SHALL be a resolvable URI. |One
 |===

@@ -1,4 +1,4 @@
-:Title: OGC Fugitive Emissions Management SensorThings API Best Practice - Part I - AER Directive 60
+:Title: OGC Integrated Methane Sensor Web for Emissions Management Best Practice - Part I - Fugitive Emissions Management based on AER Directive 60
 :titletext: {Title}
 :doctype: book
 :encoding: utf-8
