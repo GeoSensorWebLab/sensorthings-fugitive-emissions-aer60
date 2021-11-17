@@ -78,7 +78,7 @@ include::requirements/requirement_5.adoc[]
 |Name |Definition |Data types and values |Multiplicity and use
 |name |Number of identified sources of fugitive emissions |Character string type, and the value shall be "Number of identified sources of fugitive emissions" |One
 |description |A short description of the Datastream |Character string type |One
-|observationType |The observation type of the _number-of-fugitive-emissions_ "Observation" is a http://defs.opengis.net/vocprez/object?uri=http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_CountObservation[ISO/OGC 19156] count observation   |The value shall be "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_CountObservation" |One
+|observationType |The observation type of the _number-of-fugitive-emissions_ "Observation" is a http://defs.opengis.net/vocprez/object?uri=http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_CountObservation[ISO/OGC 19156] count observation   |The value shall be compliant with http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_CountObservation[OM_CountObservation] |One
 |phenomenonTime |This "Datastream" SHOULD have a phenomenonTime, describes the temporal interval of the phenomenon times of all observations belonging to this Datastream |TM_Period (ISO 8601 Time Interval) |One
 |===
 
@@ -110,7 +110,7 @@ include::requirements/requirement_7.adoc[]
 |Name |Definition |Data types and values |Multiplicity and use
 |name |The volume of fugitive emissions (`m3`) |Character string type, and the value shall be "Fugitive Emissions Volume (`m3`)" |One
 |description |A short description of the Datastream |Character string type |One
-|observationType |The observation type of the _fugitive-emissions-volume_ "Observation" is a http://defs.opengis.net/vocprez/object?uri=http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement[ISO/OGC 19156] measurement  |The value shall be http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement[OM_Measurement] |One
+|observationType |The observation type of the _fugitive-emissions-volume_ "Observation" is a http://defs.opengis.net/vocprez/object?uri=http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement[ISO/OGC 19156] measurement  |The value shall be compliant with http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement[OM_Measurement] |One
 |phenomenonTime |This "Datastream" SHOULD have a phenomenonTime, describes the temporal interval of the phenomenon times of all observations belonging to this Datastream |TM_Period (ISO 8601 Time Interval) |One
 |unitOfMeasurement |The unit of measurement of this Datastream is cubic meter |A SensorThings "unitOfMeasurement" JSON Object, with the following key-value pairs: `{"uom":"m3","symbol":"Cubic Meter","definition":"http://qudt.org/vocab/unit/M3"}` |One
 |===
@@ -143,7 +143,7 @@ include::requirements/requirement_9.adoc[]
 |Name |Definition |Data types and values |Multiplicity and use
 |name |The mass of fugitive emissions (`kg`) |Character string type, and the value shall be "Fugitive Emissions Mass Methane (`kg`)" |One
 |description |A short description of the Datastream |Character string type |One
-|observationType |The observation type of the _fugitive-emissions-mass_ "Observation" is a http://defs.opengis.net/vocprez/object?uri=http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement[ISO/OGC 19156] measurement  |The value shall be http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement[OM_Measurement] |One
+|observationType |The observation type of the _fugitive-emissions-mass_ "Observation" is a http://defs.opengis.net/vocprez/object?uri=http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement[ISO/OGC 19156] measurement  |The value shall be compliant with http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement[OM_Measurement] |One
 |phenomenonTime |This "Datastream" SHOULD have a phenomenonTime, describes the temporal interval of the phenomenon times of all observations belonging to this Datastream |TM_Period (ISO 8601 Time Interval) |One
 |unitOfMeasurement |The unit of measurement of this Datastream is kilogram |A SensorThings "unitOfMeasurement" JSON Object, with the following key-value pairs: `{"uom":"kg","symbol":"Kilogram","definition":"http://qudt.org/vocab/unit/KiloGM"}`
 |One
