@@ -1,6 +1,6 @@
 [width="90%",cols="2,6"]
 |===
-|*Requirement 3* {set:cellbgcolor:#CACCCE}|/req/location/location-entity +
+|*Requirement 3* {set:cellbgcolor:#CACCCE}|/req/datamodel/location/location-entity +
  +
 
 The SensorThings SHALL have a "Location" entity that has the properties with the corresponding value and multiplicity listed in <<table_req3>>. {set:cellbgcolor:#FFFFFF}
