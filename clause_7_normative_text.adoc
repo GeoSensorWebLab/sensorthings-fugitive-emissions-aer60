@@ -14,9 +14,9 @@ include::requirements/requirement_1.adoc[]
 [width="90%",options="header"]
 |===
 |Name |Definition |Data types and values |Multiplicity and use
-|name |the facility ID of the reporting facility |character string type, and the value shall be a valid AER facility ID  |One
-|description |a short description of the facility |character string type |One
-|properties |the well ID or site ID that is associated with the facility ID  |a JSON object that has a key of "well or site id" and the corresponding value shall be a valid AER well ID or site ID |One
+|name |The facility ID of the _reporting facility_ |Character string type, and the value shall be a valid AER facility ID  |One
+|description |A short description of the facility |Character string type |One
+|properties |The well ID or site ID that is associated with the facility ID  |A JSON object that has a key of "well or site id" and the corresponding value shall be a valid AER well ID or site ID |One
 |===
 
 ==== Requirement 2
@@ -29,7 +29,7 @@ include::requirements/requirement_2.adoc[]
 |===
 |Entity type |Relation |Description
 |Location |One mandatory |A _reporting facility_ "Thing" SHALL have one Location. Multiple _reporting facilities_ "Thing" MAY be located at the same "Location".
-|Datastream |Three-to-many mandatory |A _reporting facility_ "Thing" SHALL have three related Datastream entities, describing the number of fugitive emissions, the volume of the fugitive emissions, and the mass of the fugitive emissions respectively. A _reporting facility_ "Thing" MAY have additional "Datastreams".
+|Datastream |Three-to-many mandatory |A _reporting facility_ "Thing" SHALL have three related Datastream entities, describing the _number-of-fugitive-emissions_, the volume of the fugitive emissions, and the mass of the fugitive emissions respectively. A _reporting facility_ "Thing" MAY have additional "Datastreams".
 |===
 
 === Requirement Class: Location
@@ -37,7 +37,7 @@ include::requirements/requirement_2.adoc[]
 include::requirements/requirements_class_2.adoc[]
 
 ==== Requirement 3
-This requirement defines the mandatory properties and relations of the "Location" of the reporting facility.
+This requirement defines the mandatory properties and relations of the "Location" of the _reporting facility_.
 
 include::requirements/requirement_3.adoc[]
 .Properties of a _reporting facility_ Location entity
@@ -45,10 +45,10 @@ include::requirements/requirement_3.adoc[]
 [width="90%",options="header"]
 |===
 |Name |Definition |Data types and values |Multiplicity and use
-|name |the reporting facility's legal description of the Legal Subdivision (LSD) according to the https://www.alberta.ca/alberta-township-survey-system.aspx[Alberta Township Survey (ATS)] system |character string type, and the value shall be a valid legal description of the LSD based on the ATS system |One
-|description |the description about the Location |character string type |One
-|encodingType |the IANA media type for GeoJSON  |character string type, and the value shall be "application/geo+json" |One
-|location |the GeoJSON polygon https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.6[[RFC7946]] represents the area of the legal description LSD |a GeoJSON Polygon object, and the value of the GeoJSON Polygon coordinates shall be the boundary of the legal description LSD |One
+|name |The _reporting facility's_ legal description of the Legal Subdivision (LSD) according to the https://www.alberta.ca/alberta-township-survey-system.aspx[Alberta Township Survey (ATS)] system |Character string type, and the value shall be a valid legal description of the LSD based on the ATS system |One
+|description |The description about the Location |Character string type |One
+|encodingType |The IANA media type for GeoJSON  |Character string type, and the value shall be "application/geo+json" |One
+|location |The GeoJSON polygon https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.6[[RFC7946]] represents the area of the legal description LSD |A GeoJSON Polygon object, and the value of the GeoJSON Polygon coordinates shall be the boundary of the legal description LSD |One
 |===
 
 ==== Requirement 4
@@ -60,7 +60,7 @@ include::requirements/requirement_4.adoc[]
 [width="90%",options="header"]
 |===
 |Entity type |Relation |Description
-|Thing |Many optional |Multiple reporting facilities "Thing" MAY be located at the same "Location". A Location MAY not have a _reporting facility_ "Thing".
+|Thing |Many optional |Multiple _reporting facilities_ "Thing" MAY be located at the same "Location". A Location MAY not have a _reporting facility_ "Thing".
 |===
 
 === Requirement Class: Datastream
@@ -68,7 +68,7 @@ include::requirements/requirement_4.adoc[]
 include::requirements/requirements_class_3.adoc[]
 
 ==== Requirement 5
-This requirement defines the mandatory properties of the _number-of-fugitive-emissions_ "Datastream" of the reporting facility.
+This requirement defines the mandatory properties of the _number-of-fugitive-emissions_ "Datastream" of the _reporting facility_.
 
 include::requirements/requirement_5.adoc[]
 [#table_req5,reftext='{table-caption} {counter:table-num}']
@@ -76,10 +76,10 @@ include::requirements/requirement_5.adoc[]
 [width="90%",options="header"]
 |===
 |Name |Definition |Data types and values |Multiplicity and use
-|name |number of identified sources of fugitive emissions |character string type, and the value shall be "Number of identified sources of fugitive emissions" |One
-|description |a short description of the Datastream |character string type |One
-|observationType |the observation type of the number-of-fugitive-emissions "Observation" is a http://defs.opengis.net/vocprez/object?uri=http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_CountObservation[ISO/OGC 19156] count observation   |the value shall be "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_CountObservation" |One
-|phenomenonTime |this "Datastream" SHOULD have a phenomenonTime, describes the temporal interval of the phenomenon times of all observations belonging to this Datastream |TM_Period (ISO 8601 Time Interval) |One
+|name |Number of identified sources of fugitive emissions |Character string type, and the value shall be "Number of identified sources of fugitive emissions" |One
+|description |A short description of the Datastream |Character string type |One
+|observationType |The observation type of the _number-of-fugitive-emissions_ "Observation" is a http://defs.opengis.net/vocprez/object?uri=http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_CountObservation[ISO/OGC 19156] count observation   |The value shall be "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_CountObservation" |One
+|phenomenonTime |This "Datastream" SHOULD have a phenomenonTime, describes the temporal interval of the phenomenon times of all observations belonging to this Datastream |TM_Period (ISO 8601 Time Interval) |One
 |===
 
 ==== Requirement 6
@@ -91,16 +91,16 @@ include::requirements/requirement_6.adoc[]
 [width="90%",options="header"]
 |===
 |Entity type |Relation |Description
-|Thing |One mandatory |Each number-of-fugitive-emissions "Datastream" SHALL have one and only one _reporting facility_ "Thing". A _reporting facility_ "Thing" SHALL have one and only one number-of-fugitive-emissions "Datastream".
-|Sensor |One mandatory |The "Observations" in a _number-of-fugitive-emissions_ "Datastream" are performed by one "Sensor". One "Sensor" MAY be used by different Datastreams.
+|Thing |One mandatory |Each _number-of-fugitive-emissions_ "Datastream" SHALL have one and only one _reporting facility_ "Thing". A _reporting facility_ "Thing" SHALL have one and only one _number-of-fugitive-emissions_ "Datastream".
+|Sensor |One mandatory |The "Observations" in a __number-of-fugitive-emissions__ "Datastream" are performed by one "Sensor". One "Sensor" MAY be used by different Datastreams.
 
 *Note:* A "Sensor" in this best practice is an observation process describing the Fugitive Emissions Management Program (FEMP) that generates the observation result.
-|ObservedProperty |One mandatory |The "Observations" of a _number-of-fugitive-emissions_ "Datastream" SHALL observe the methane _fugitive-emissions_"ObservedProperty" as defined in Requirement 11.
-|Observation |Many optional |A number-of-fugitive-emissions "Datastream" has zero-to-many "Observations". One Observation SHALL occur in one-and-only-one "Datastream".
+|ObservedProperty |One mandatory |The "Observations" of a __number-of-fugitive-emissions__ "Datastream" SHALL observe the methane _fugitive-emissions_ "ObservedProperty" as defined in Requirement 11.
+|Observation |Many optional |A _number-of-fugitive-emissions_ "Datastream" has zero-to-many "Observations". One Observation SHALL occur in one-and-only-one "Datastream".
 |===
 
 ==== Requirement 7
-This requirement defines the mandatory properties and relations of the number-of-fugitive-emissions "Datastream" of the reporting facility.
+This requirement defines the mandatory properties and relations of the _number-of-fugitive-emissions_ "Datastream" of the _reporting facility_.
 
 include::requirements/requirement_7.adoc[]
 [#table_req7,reftext='{table-caption} {counter:table-num}']
@@ -108,12 +108,11 @@ include::requirements/requirement_7.adoc[]
 [width="90%",options="header"]
 |===
 |Name |Definition |Data types and values |Multiplicity and use
-|name |the volume of fugitive emissions (`m3`) |character string type, and the value shall be "Fugitive Emissions Volume (`m3`)" |One
-|description |a short description of the Datastream |character string type |One
-|observationType |the observation type of the _fugitive-emissions-volume_ "Observation" is a http://defs.opengis.net/vocprez/object?uri=http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement[ISO/OGC 19156] measurement  |the value shall be "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement |One
-|phenomenonTime |this "Datastream" SHOULD have a phenomenonTime, describes the temporal interval of the phenomenon times of all observations belonging to this Datastream |TM_Period (ISO 8601 Time Interval) |One
-|unitOfMeasurement |the unit of measurement of this Datastream is cubic meter |a SensorThings "unitOfMeasurement" JSON Object, with the following key-value pairs: `{"uom":"m3","symbol":"Cubic Meter","definition":"http://qudt.org/vocab/unit/M3"}`
-|One
+|name |The volume of fugitive emissions (`m3`) |Character string type, and the value shall be "Fugitive Emissions Volume (`m3`)" |One
+|description |A short description of the Datastream |Character string type |One
+|observationType |The observation type of the _fugitive-emissions-volume_ "Observation" is a http://defs.opengis.net/vocprez/object?uri=http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement[ISO/OGC 19156] measurement  |The value shall be http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement[OM_Measurement] |One
+|phenomenonTime |This "Datastream" SHOULD have a phenomenonTime, describes the temporal interval of the phenomenon times of all observations belonging to this Datastream |TM_Period (ISO 8601 Time Interval) |One
+|unitOfMeasurement |The unit of measurement of this Datastream is cubic meter |A SensorThings "unitOfMeasurement" JSON Object, with the following key-value pairs: `{"uom":"m3","symbol":"Cubic Meter","definition":"http://qudt.org/vocab/unit/M3"}` |One
 |===
 
 ==== Requirement 8
@@ -134,7 +133,7 @@ include::requirements/requirement_8.adoc[]
 |===
 
 ==== Requirement 9
-This requirement defines the mandatory properties of the _fugitive-emissions-mass_ "Datastream" of the reporting facility.
+This requirement defines the mandatory properties of the _fugitive-emissions-mass_ "Datastream" of the _reporting facility_.
 
 include::requirements/requirement_9.adoc[]
 [#table_req9,reftext='{table-caption} {counter:table-num}']
@@ -142,11 +141,11 @@ include::requirements/requirement_9.adoc[]
 [width="90%",options="header"]
 |===
 |Name |Definition |Data types and values |Multiplicity and use
-|name |the mass of fugitive emissions (`m3`) |character string type, and the value shall be "Fugitive Emissions Mass Methane (`kg`)" |One
-|description |a short description of the Datastream |character string type |One
-|observationType |the observation type of the _fugitive-emissions-volume_ "Observation" is a http://defs.opengis.net/vocprez/object?uri=http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement[ISO/OGC 19156] measurement  |the value shall be "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement" |One
-|phenomenonTime |this "Datastream" SHOULD have a phenomenonTime, describes the temporal interval of the phenomenon times of all observations belonging to this Datastream |TM_Period (ISO 8601 Time Interval) |One
-|unitOfMeasurement |the unit of measurement of this Datastream is cubic meter |a SensorThings "unitOfMeasurement" JSON Object, with the following key-value pairs: `{"uom":"kg","symbol":"Kilogram","definition":"http://qudt.org/vocab/unit/KiloGM"}`
+|name |The mass of fugitive emissions (`kg`) |Character string type, and the value shall be "Fugitive Emissions Mass Methane (`kg`)" |One
+|description |A short description of the Datastream |Character string type |One
+|observationType |The observation type of the _fugitive-emissions-mass_ "Observation" is a http://defs.opengis.net/vocprez/object?uri=http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement[ISO/OGC 19156] measurement  |The value shall be http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement[OM_Measurement] |One
+|phenomenonTime |This "Datastream" SHOULD have a phenomenonTime, describes the temporal interval of the phenomenon times of all observations belonging to this Datastream |TM_Period (ISO 8601 Time Interval) |One
+|unitOfMeasurement |The unit of measurement of this Datastream is kilogram |A SensorThings "unitOfMeasurement" JSON Object, with the following key-value pairs: `{"uom":"kg","symbol":"Kilogram","definition":"http://qudt.org/vocab/unit/KiloGM"}`
 |One
 |===
 
@@ -160,10 +159,10 @@ include::requirements/requirement_10.adoc[]
 |===
 |Entity type |Relation |Description
 |Thing |One mandatory |Each _fugitive-emissions-mass_ "Datastream" SHALL have one and only one _reporting facility_ "Thing". A _reporting facility_ "Thing" SHALL have one and only one _fugitive-emissions-mass_ "Datastream".
-|Sensor |One mandatory |The "Observations" in a _fugitive-emissions-volume_ "Datastream" are performed by one "Sensor". One "Sensor" MAY be used by different Datastreams.
+|Sensor |One mandatory |The "Observations" in a _fugitive-emissions-mass_ "Datastream" are performed by one "Sensor". One "Sensor" MAY be used by different Datastreams.
 
 *Note:* A "Sensor" in this best practice is an observation process describing the Fugitive Emissions Management Program (FEMP) that generates the observation result.
-|ObservedProperty |One mandatory |The "Observations" of a _fugitive-emissions-volume_ "Datastream" SHALL observe the methane _fugitive-emissions_"ObservedProperty" as defined in Requirement 11.
+|ObservedProperty |One mandatory |The "Observations" of a _fugitive-emissions-mass_ "Datastream" SHALL observe the methane _fugitive-emissions_ "ObservedProperty" as defined in Requirement 11.
 |Observation |Many optional |A _fugitive-emissions-mass_ "Datastream" has zero-to-many "Observations". One Observation SHALL occur in one-and-only-one "Datastream".
 |===
 
@@ -180,9 +179,9 @@ include::requirements/requirement_11.adoc[]
 [width="90%",options="header"]
 |===
 |Name |Definition |Data types and values |Multiplicity and use
-|name |the term used in AER Directive 60 to describe fugitive emissions |character string type, and the value shall be "Fugitive Emissions" |One
-|description |a description about the ObservedProperty |the value shall be "Fugitive emissions are the unintentional releases of hydrocarbons to the atmosphere. " |One
-|definition |This property is the URI of the ObservedProperty definition. Dereferencing this URI SHOULD result in a representation of the definition of the ObservedProperty. |the value shall be "https://static.aer.ca/prd/documents/directives/Directive060.pdf#page=72" |One
+|name |The term used in AER Directive 60 to describe fugitive emissions |Character string type, and the value shall be "Fugitive Emissions" |One
+|description |A description about the ObservedProperty |The value shall be "Fugitive emissions are the unintentional releases of hydrocarbons to the atmosphere." |One
+|definition |This property is the URI of the ObservedProperty definition. Dereferencing this URI SHOULD result in a representation of the definition of the ObservedProperty. |The value shall be compliant with "https://static.aer.ca/prd/documents/directives/Directive060.pdf#page=72" |One
 |===
 
 === Requirement Class: Observation
@@ -190,17 +189,17 @@ include::requirements/requirement_11.adoc[]
 include::requirements/requirements_class_5.adoc[]
 
 ==== Requirement 12
-This requirement defines the mandatory properties and relations of the number-of-fugitive-emissions "Observations".
+This requirement defines the mandatory properties and relations of the _number-of-fugitive-emissions_ "Observations".
 
 include::requirements/requirement_12.adoc[]
 [#table_req12,reftext='{table-caption} {counter:table-num}']
-.Properties of a number-of-fugitive-emissions Observation entity
+.Properties of a _number-of-fugitive-emissions_ Observation entity
 [width="90%",options="header"]
 |===
 |Name |Definition |data types and values |Multiplicity and use
-|phenomenonTime |the time period of when the "Observation" happens. |TM_Period (ISO 8601 Time Interval) |One
-|result |the number of fugitive emissions |integer |One
-|parameters |key-value pairs describing an event-specifc parameter.  |the value SHALL be a JSON object, with a key of "Survey or Screening Type", and the corresponding value SHALL be one of the following: "ALTFEMP", "SITESURVEY", "TANKSURVEY", "WELLSCREENING" |One
+|phenomenonTime |The time period of when the "Observation" happens. |TM_Period (ISO 8601 Time Interval) |One
+|result |The _number-of-fugitive-emissions_ |Integer |One
+|parameters |Key-value pairs describing an event-specifc parameter. |The value SHALL be a JSON object, with a key of "Survey or Screening Type", and the corresponding value SHALL be one of the following: "ALTFEMP", "SITESURVEY", "TANKSURVEY", "WELLSCREENING" |One
 |===
 
 === Requirement Class: FeatureOfInterest
@@ -208,7 +207,7 @@ include::requirements/requirement_12.adoc[]
 include::requirements/requirements_class_6.adoc[]
 
 ==== Requirement 13
-This requirement defines the mandatory properties and relations of the "FeatureOfInterest" entity related to the "Observations" of the three mandatory "Datastreams." In the context of fugitive emissions, the "FeatureOfInterest" of fugitive emissions "Observation" is where the leaks occur. In AER Directive 60, the "FeatureOfInterest" is modelled as a site. In some cases, a reporting facility called "Thing" can have more than one site, such as wells, controlled tanks, process units, or wellhead https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=17[[AER Manual015 Figure 1]] and https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=19[[AER Manual015 Figure 3]]. The following figure describes the relationship between a _reporting facility_ "Thing" and "FeaturesOfInterest."
+This requirement defines the mandatory properties and relations of the "FeatureOfInterest" entity related to the "Observations" of the three mandatory "Datastreams." In the context of fugitive emissions, the "FeatureOfInterest" of fugitive emissions "Observation" is where the leaks occur. In AER Directive 60, the "FeatureOfInterest" is modelled as a site. In some cases, a _reporting facility_ called "Thing" can have more than one site, such as wells, controlled tanks, process units, or wellhead https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=17[[AER Manual015 Figure 1]] and https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=19[[AER Manual015 Figure 3]]. The following figure describes the relationship between a _reporting facility_ "Thing" and "FeaturesOfInterest."
 
 [[fig-thing-featureofinterest-relationship]]
 [.text-center, width="90%"]
@@ -223,16 +222,28 @@ include::requirements/requirement_13.adoc[]
 [width="90%",options="header"]
 |===
 |Name |Definition |data types and values |Multiplicity and use
-|phenomenonTime |the time period of when the "Observation" happens. |TM_Period (ISO 8601 Time Interval) |One
-|result |the number of fugitive emissions |Integer |One
-|properties |key-value pairs describing an event-specific parameter  |the value SHALL be a JSON object, with a key of "Survey or Screening Type", and the corresponding value SHALL be one of the following: "ALTFEMP", "SITESURVEY", "TANKSURVEY", "WELLSCREENING" |One
+|phenomenonTime |The time period of when the "Observation" happens. |TM_Period (ISO 8601 Time Interval) |One
+|result |The _number-of-fugitive-emissions_ |Integer |One
+|properties |Key-value pairs describing an event-specific parameter  |The value SHALL be a JSON object, with a key of "Survey or Screening Type", and the corresponding value SHALL be one of the following: "ALTFEMP", "SITESURVEY", "TANKSURVEY", "WELLSCREENING" |One
+|===
+
+==== Requirement 14
+This requirement defines the direct relation between the "FeatureOfInterest" entity and the "Observation" entity.
+
+include::requirements/requirement_14.adoc[]
+[#table_req14,reftext='{table-caption} {counter:table-num}']
+.Direct relation between a FeatureOfInterest entity and the Observation entity
+[width="90%",options="header"]
+|===
+|Entity type |Relation |Description
+|Observation |Many optional |An "Observation" observes on one-and-only-one FeatureOfInterest. One "FeatureOfInterest" could be observed by zero-to-many "Observations".
 |===
 
 === Requirement Class: Sensor
 
 include::requirements/requirements_class_7.adoc[]
 
-==== Requirement 14
+==== Requirement 15
 This requirement defines the mandatory properties and relations of the "Sensor" entity.
 [NOTE]
 ====
@@ -240,14 +251,14 @@ The "Sensor" entity in this best practice is not an instrument, but rather it SH
 https://www.ogc.org/standards/om[ISO/OGC 19156:2001 OM_Process] describing the Fugitive Emissions Management Program (FEMP) that generates the observation result.
 ====
 
-include::requirements/requirement_14.adoc[]
-[#table_req14,reftext='{table-caption} {counter:table-num}']
+include::requirements/requirement_15.adoc[]
+[#table_req15,reftext='{table-caption} {counter:table-num}']
 .Properties of a Sensor entity
 [width="90%",options="header"]
 |===
 |Name |Definition |Data types and values |Multiplicity and use
 |name |Provides a label for the "Sensor" entity, and it should be the descriptive name of the FEMP that generates the fugitive emissions observation results |CharacterString |One
 |description |The description of the FEMP  |CharacterString |One
-|encodingType |The encoding type of the metadata property. |character string type, and the value shall be "application/pdf" or "text/html" |One
+|encodingType |The encoding type of the metadata property. |Character string type, and the value shall be "application/pdf" or "text/html" |One
 |metadata |This value depends on the value of the encodingType. The value SHALL be a resolvable URI, linking to either a PDF document or an HTML page, describing the FEMP used to generate the fugitive emissions observation results. |The value SHALL be a resolvable URI. |One
 |===

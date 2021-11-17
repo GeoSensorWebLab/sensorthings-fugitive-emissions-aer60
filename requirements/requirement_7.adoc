@@ -1,7 +1,7 @@
 [width="90%",cols="2,6"]
 |===
-|*Requirement 7* {set:cellbgcolor:#CACCCE}|/req/datastream/fugitive-emissions-volume-entity +
+|*Requirement 7* {set:cellbgcolor:#CACCCE}|/req/datamodel/datastream/fugitive-emissions-volume-entity +
  +
 
-A reporting facility "Thing" SHALL have a fugitive-emissions-volume "Datastream" entity that has the properties with the corresponding value and multiplicity listed in <<table_req7>>. {set:cellbgcolor:#FFFFFF}
+A _reporting facility_ "Thing" SHALL have a _fugitive-emissions-volume_ "Datastream" entity that has the properties with the corresponding value and multiplicity listed in <<table_req7>>. {set:cellbgcolor:#FFFFFF}
 |===
