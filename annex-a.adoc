@@ -10,19 +10,19 @@ The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to 
 [cols=",,",]
 |==================================================================================================================================
 |*Conformance Class* 2+| */conf/datamodel/thing*
-|*Requirements* 2+| /req/datamodel/thing/thing-entity
+|*Requirements* 2+| /req/datamodel/thing/properties
 
-/req/datamodel/thing/thing-relations
+/req/datamodel/thing/relations
 |*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/thing
 
-.5+| *Test 1* 2+| /conf/datamodel/thing/thing-entity
-|Requirement | /req/datamodel/thing/thing-entity
+.5+| *Test 1* 2+| /conf/datamodel/thing/properties
+|Requirement | /req/datamodel/thing/properties
 |Test purpose | Verify that the Thing entity has mandatory properties as defined in FEM-STA Specification.
 |Test method | Inspect the entire JSON object of the Thing entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 
-.5+| *Test 2* 2+| /conf/datamodel/thing/thing-relations
-|Requirement | /req/datamodel/thing/thing-relations
+.5+| *Test 2* 2+| /conf/datamodel/thing/relations
+|Requirement | /req/datamodel/thing/relations
 |Test purpose | Verify that the Thing entity has mandatory relations as defined in FEM-STA Specification.
 |Test method | Inspect the entire JSON object of each Thing entity set to identify if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
@@ -33,19 +33,19 @@ The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to 
 [cols=",,",]
 |==================================================================================================================================
 |*Conformance Class* 2+| */conf/datamodel/location*
-|*Requirements* 2+| /req/datamodel/location/location-entity
+|*Requirements* 2+| /req/datamodel/location/properties
 
-/req/datamodel/location/location-relations
+/req/datamodel/location/relations
 |*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/location
 
-.5+| *Test 3* 2+| /conf/datamodel/location/location-entity
-|Requirement | /req/datamodel/location/location-entity
+.5+| *Test 3* 2+| /conf/datamodel/location/properties
+|Requirement | /req/datamodel/location/properties
 |Test purpose | Verify that the Location entity has the mandatory properties as defined in FEM-STA Specification.
 |Test method | Inspect the full JSON object of the Location entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 
-.5+| *Test 4* 2+| /conf/datamodel/location/location-relations
-|Requirement | /req/datamodel/location/location-relations
+.5+| *Test 4* 2+| /conf/datamodel/location/relations
+|Requirement | /req/datamodel/location/relations
 |Test purpose | Verify that the Location entity has the mandatory relations as defined in FEM-STA Specification.
 |Test method | Inspect the full JSON object of each Location entity set to identify if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
@@ -56,21 +56,21 @@ The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to 
 [cols=",,",]
 |==================================================================================================================================
 |*Conformance Class* 2+| */conf/datamodel/datastream*
-|*Requirements* 2+| /req/datamodel/datastream/number-of-fugitive-emissions-entity
+|*Requirements* 2+| /req/datamodel/datastream/number-of-fugitive-emissions-properties
 
 /req/datamodel/datastream/number-of-fugitive-emissions-relations
 
-/req/datamodel/datastream/fugitive-emissions-volume-entity
+/req/datamodel/datastream/fugitive-emissions-volume-properties
 
 /req/datamodel/datastream/fugitive-emissions-volume-relations
 
-/req/datamodel/datastream/fugitive-emissions-mass-entity
+/req/datamodel/datastream/fugitive-emissions-mass-properties
 
 /req/datamodel/datastream/fugitive-emissions-mass-relations
 |*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/datastream
 
-.5+| *Test 5* 2+| /conf/datamodel/datastream/number-of-fugitive-emissions-entity
-|Requirement | /req/datamodel/datastream/number-of-fugitive-emissions-entity
+.5+| *Test 5* 2+| /conf/datamodel/datastream/number-of-fugitive-emissions-properties
+|Requirement | /req/datamodel/datastream/number-of-fugitive-emissions-properties
 |Test purpose | Verify that each _number-of-fugitive-emissions_ Datastream entity has the mandatory properties as defined in FEM-STA Specification.
 |Test method | Inspect the full JSON object of the _number-of-fugitive-emissions_ Datastream entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
@@ -81,8 +81,8 @@ The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to 
 |Test method | Inspect the full JSON object of each _number-of-fugitive-emissions_ Datastream entity set to identify if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 
-.5+| *Test 7* 2+| /conf/datamodel/datastream/fugitive-emissions-volume-entity
-|Requirement | /req/datamodel/datastream/fugitive-emissions-volume-entity
+.5+| *Test 7* 2+| /conf/datamodel/datastream/fugitive-emissions-volume-properties
+|Requirement | /req/datamodel/datastream/fugitive-emissions-volume-properties
 |Test purpose | Verify that each _fugitive-emissions-volume_ Datastream entity has the mandatory properties as defined in FEM-STA Specification.
 |Test method | Inspect the full JSON object of the _fugitive-emissions-volume_ Datastream entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
@@ -93,8 +93,8 @@ The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to 
 |Test method | Inspect the full JSON object of each _fugitive-emissions-volume_ Datastream entity set to identify if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 
-.5+| *Test 9* 2+| /conf/datamodel/datastream/fugitive-emissions-mass-entity
-|Requirement | /req/datamodel/datastream/fugitive-emissions-mass-entity
+.5+| *Test 9* 2+| /conf/datamodel/datastream/fugitive-emissions-mass-properties
+|Requirement | /req/datamodel/datastream/fugitive-emissions-mass-properties
 |Test purpose | Verify that each _fugitive-emissions-mass_ Datastream entity has the mandatory properties as defined in FEM-STA Specification.
 |Test method | Inspect the full JSON object of the _fugitive-emissions-mass_ Datastream entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
@@ -106,69 +106,69 @@ The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to 
 |Test type | Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM-STA ObservedProperty Entity
+=== Conformance Class: FEM-STA ObservedProperty
 
 [cols=",,",]
 |==================================================================================================================================
 |*Conformance Class* 2+| */conf/datamodel/observed-property*
-|*Requirements* 2+| /req/datamodel/observed-property/number-of-fugitive-emissions-entity
+|*Requirements* 2+| /req/datamodel/observed-property/properties
 |*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/observed-property
 
-.5+| *Test 11* 2+| /conf/datamodel/observed-property/number-of-fugitive-emissions-entity
-|Requirement | /req/datamodel/observed-property/number-of-fugitive-emissions-entity
+.5+| *Test 11* 2+| /conf/datamodel/observed-property/properties
+|Requirement | /req/datamodel/observed-property/properties
 |Test purpose | Verify that the ObservedProperty entity has the mandatory properties as defined in FEM-STA Specification.
 |Test method | Inspect the full JSON object of the ObservedProperty entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM-STA Observation Entity
+=== Conformance Class: FEM-STA Observation
 
 [cols=",,",]
 |==================================================================================================================================
 |*Conformance Class* 2+| */conf/datamodel/observation*
-|*Requirements* 2+| /req/datamodel/observation/observation-entity
+|*Requirements* 2+| /req/datamodel/observation/properties
 |*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/observation
 
-.5+| *Test 12* 2+| /conf/datamodel/observation/observation-entity
-|Requirement | /req/datamodel/observation/observation-entity
+.5+| *Test 12* 2+| /conf/datamodel/observation/properties
+|Requirement | /req/datamodel/observation/properties
 |Test purpose | Verify that the Observation entity has the mandatory properties as defined in FEM-STA Specification.
 |Test method | Inspect the full JSON object of the Observation entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM-STA FeatureOfInterest Entity
+=== Conformance Class: FEM-STA FeatureOfInterest
 
 [cols=",,",]
 |==================================================================================================================================
 |*Conformance Class* 2+| */conf/datamodel/feature-of-interest*
-|*Requirements* 2+| /req/datamodel/feature-of-interest/feature-of-interest-entity
+|*Requirements* 2+| /req/datamodel/feature-of-interest/properties
 
-/req/datamodel/feature-of-interest/feature-of-interest-relations
+/req/datamodel/feature-of-interest/relations
 |*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/feature-of-interest
 
-.5+| *Test 13* 2+| /conf/datamodel/feature-of-interest/feature-of-interest-entity
-|Requirement | /req/datamodel/feature-of-interest/feature-of-interest-entity
+.5+| *Test 13* 2+| /conf/datamodel/feature-of-interest/properties
+|Requirement | /req/datamodel/feature-of-interest/properties
 |Test purpose | Verify that the FeatureOfInterest entity has the mandatory properties as defined in FEM-STA Specification.
 |Test method | Inspect the full JSON object of the FeatureOfInterest entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 
-.5+| *Test 14* 2+| /conf/datamodel/feature-of-interest/feature-of-interest-relations
-|Requirement | /req/datamodel/feature-of-interest/feature-of-interest-relations
+.5+| *Test 14* 2+| /conf/datamodel/feature-of-interest/relations
+|Requirement | /req/datamodel/feature-of-interest/relations
 |Test purpose | Verify that the FeatureOfInterest entity has the mandatory relations as defined in FEM-STA Specification.
 |Test method | Inspect the full JSON object of each FeatureOfInterest entity set to identify if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM-STA Sensor Entity
+=== Conformance Class: FEM-STA Sensor
 
 [cols=",,",]
 |==================================================================================================================================
 |*Conformance Class* 2+| */conf/datamodel/sensor*
-|*Requirements* 2+| /req/datamodel/sensor/sensor-entity
+|*Requirements* 2+| /req/datamodel/sensor/properties
 |*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/sensor
 
-.5+| *Test 15* 2+| /conf/datamodel/sensor/sensor-entity
-|Requirement | /req/datamodel/sensor/sensor-entity
+.5+| *Test 15* 2+| /conf/datamodel/sensor/properties
+|Requirement | /req/datamodel/sensor/properties
 |Test purpose | Verify that the Sensor entity has the mandatory properties as defined in FEM-STA Specification.
 |Test method | Inspect the full JSON object of the Sensor entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance

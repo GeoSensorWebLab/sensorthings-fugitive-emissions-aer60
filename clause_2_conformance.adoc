@@ -16,32 +16,32 @@ can be used to unambiguously identify the requirement and the conformance class.
 |===
 |Requirements class id |Requirements |Description
 |/req/datamodel/thing |
-* /req/datamodel/thing/thing-entity
-* /req/datamodel/thing/thing-relations |Thing entity
+* /req/datamodel/thing/properties
+* /req/datamodel/thing/relations |Thing entity
 
 |/req/datamodel/location |
-* /req/datamodel/location/location-entity
-* /req/datamodel/location/location-relations |Location entity
+* /req/datamodel/location/properties
+* /req/datamodel/location/relations |Location entity
 
 |/req/datamodel/datastream |
-* /req/datamodel/datastream/number-of-fugitive-emissions-entity
+* /req/datamodel/datastream/number-of-fugitive-emissions-properties
 * /req/datamodel/datastream/number-of-fugitive-emissions-relations
-* /req/datamodel/datastream/fugitive-emissions-volume-entity
+* /req/datamodel/datastream/fugitive-emissions-volume-properties
 * /req/datamodel/datastream/fugitive-emissions-volume-relations
-* /req/datamodel/datastream/fugitive-emissions-mass-entity
+* /req/datamodel/datastream/fugitive-emissions-mass-properties
 * /req/datamodel/datastream/fugitive-emissions-mass-relations |Datastream entity
 
 |/req/datamodel/observed-property |
-* /req/datamodel/observed-property/number-of-fugitive-emissions-entity |ObservedProperty entity
+* /req/datamodel/observed-property/properties |ObservedProperty entity
 
 |/req/datamodel/observation |
-* /req/datamodel/observation/observation-entity |Observation entity
+* /req/datamodel/observation/properties |Observation entity
 
 |/req/datamodel/feature-of-interest |
-* /req/datamodel/feature-of-interest/feature-of-interest-entity
-* /req/datamodel/feature-of-interest/feature-of-interest-relations |FeatureOfInterest entity
+* /req/datamodel/feature-of-interest/properties
+* /req/datamodel/feature-of-interest/relations |FeatureOfInterest entity
 
 |/req/datamodel/sensor |
-* /req/datamodel/sensor/sensor-entity |Sensor Entity
+* /req/datamodel/sensor/properties |Sensor Entity
 
 |===

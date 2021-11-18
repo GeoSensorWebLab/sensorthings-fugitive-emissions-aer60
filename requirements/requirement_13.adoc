@@ -1,6 +1,6 @@
 [width="90%",cols="2,6"]
 |===
-|*Requirement 13* {set:cellbgcolor:#CACCCE}|/req/datamodel/feature-of-interest/feature-of-interest-entity +
+|*Requirement 13* {set:cellbgcolor:#CACCCE}|/req/datamodel/feature-of-interest/properties +
  +
 
 The "FeatureOfInterest" entity of the "Observations" of the three mandatory "Datastreams" SHALL have the properties with the corresponding value and multiplicity listed in <<table_req13>>. {set:cellbgcolor:#FFFFFF}
