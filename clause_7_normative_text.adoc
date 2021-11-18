@@ -29,7 +29,7 @@ include::requirements/requirement_2.adoc[]
 |===
 |Entity type |Relation |Description
 |Location |One mandatory |A _reporting facility_ "Thing" SHALL have one Location. Multiple _reporting facilities_ "Thing" MAY be located at the same "Location".
-|Datastream |Three-to-many mandatory |A _reporting facility_ "Thing" SHALL have three related Datastream entities, describing the _number-of-fugitive-emissions_, the volume of the fugitive emissions, and the mass of the fugitive emissions respectively. A _reporting facility_ "Thing" MAY have additional "Datastreams".
+|Datastream |Three-to-many mandatory |A _reporting facility_ "Thing" SHALL have three related Datastream entities, describing the _number-of-fugitive-emissions_, the _fugitive-emissions-volume_, and the _fugitive-emissions-mass_ respectively. A _reporting facility_ "Thing" MAY have additional "Datastreams".
 |===
 
 === Requirement Class: Location
@@ -221,10 +221,11 @@ include::requirements/requirement_13.adoc[]
 .Properties of a FeatureOfInterest entity
 [width="90%",options="header"]
 |===
-|Name |Definition |data types and values |Multiplicity and use
-|phenomenonTime |The time period of when the "Observation" happens. |TM_Period (ISO 8601 Time Interval) |One
-|result |The _number-of-fugitive-emissions_ |Integer |One
-|properties |Key-value pairs describing an event-specific parameter  |The value SHALL be a JSON object, with a key of "Survey or Screening Type", and the corresponding value SHALL be one of the following: "ALTFEMP", "SITESURVEY", "TANKSURVEY", "WELLSCREENING" |One
+|Name |Definition |Data types and values |Multiplicity and use
+|name |The well ID or site ID that is associated with the facility ID |CharacterString, the value SHALL be a valid well or site ID |One
+|description |Site description |CharacterString |One
+|encodingType |The IANA media type for GeoJSON  |Character string type, and the value shall be "application/geo+json" |One
+|feature |The GeoJSON polygon https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.6[[RFC7946]] represents the site boundary |A GeoJSON Polygon object, and the value of the GeoJSON Polygon coordinates shall be the boundary of the site or well |One
 |===
 
 ==== Requirement 14

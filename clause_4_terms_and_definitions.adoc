@@ -3,43 +3,18 @@ This document uses the terms defined in Sub-clause 5.3 of [OGC 06-121r8], which 
 
 For the purposes of this document, the following additional terms and definitions apply.
 
-=== Symbols (and abbreviated terms)
+=== Abbreviations
 
-==== *API*
-Application Programming Interface
-
-==== *URI*
-Uniform Resource Identifier
-
-==== *AER*
-Alberta Energy Regulator
-
-==== *ATS*
-Alberta Township Survey
-
-==== *LSD*
-Legal Subdivisions
-
-==== *IANA*
-Internet Assigned Numbers Authority
-
-==== *JSON*
-JavaScript Object Notation
-
-==== *ID*
-Identity Document
-
-==== *OGC*
-Open Geospatial Consortium
-
-==== *GeoJSON*
-Geographic JSON
-
-==== *FEMP*
-Fugitive Emissions Management Program
-
-==== *FEM-STA*
-Fugitive Emissions Management - SensorThings API
-
-==== *STA*
-SensorThings API
+*AER*   Alberta Energy Regulator
+*API*   Application Programming Interface
+*ATS*   Alberta Township Survey
+*FEM-STA*   Fugitive Emissions Management - SensorThings API
+*FEMP*   Fugitive Emissions Management Program
+*GeoJSON*   Geographic JSON
+*IANA*   Internet Assigned Numbers Authority
+*ID*   Identity Document
+*JSON*   JavaScript Object Notation
+*LSD*   Legal Subdivisions
+*OGC*   Open Geospatial Consortium
+*STA*   SensorThings API
+*URI*   Uniform Resource Identifier
