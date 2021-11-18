@@ -179,8 +179,8 @@ include::requirements/requirement_11.adoc[]
 [width="90%",options="header"]
 |===
 |Name |Definition |Data types and values |Multiplicity and use
-|name |The term used in AER Directive 60 to describe fugitive emissions |Character string type, and the value shall be "Fugitive Emissions" |One
-|description |A description about the ObservedProperty |The value shall be "Fugitive emissions are the unintentional releases of hydrocarbons to the atmosphere." |One
+|name |The term used in AER Directive 60 to describe fugitive emissions |Character string type, and the value shall be "Fugitive Methane Emissions" |One
+|description |A description about the ObservedProperty |The value shall be "Fugitive methane emissions are the unintentional releases of methane to the atmosphere." |One
 |definition |This property is the URI of the ObservedProperty definition. Dereferencing this URI SHOULD result in a representation of the definition of the ObservedProperty. |The value shall be compliant with "https://static.aer.ca/prd/documents/directives/Directive060.pdf#page=72" |One
 |===
 
