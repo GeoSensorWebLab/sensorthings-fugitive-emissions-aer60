@@ -1,7 +1,7 @@
 [width="90%",cols="2,6"]
 |===
-|*Requirement 2* {set:cellbgcolor:#CACCCE}|/req/thing/thing-relations +
+|*Requirement 2* {set:cellbgcolor:#CACCCE}|/req/datamodel/thing/relations +
  +
 
-The “Thing” entity SHALL have the direct relation between the "Thing" entity and the entities listed in Table XX. {set:cellbgcolor:#FFFFFF}
+The “Thing” entity SHALL have the direct relation between the "Thing" entity and the entities listed in <<table_req2>>. {set:cellbgcolor:#FFFFFF}
 |===

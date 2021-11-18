@@ -3,5 +3,18 @@ This document uses the terms defined in Sub-clause 5.3 of [OGC 06-121r8], which 
 
 For the purposes of this document, the following additional terms and definitions apply.
 
-=== *term name*
-text of the definition
+=== Abbreviations
+
+*AER*   Alberta Energy Regulator
+*API*   Application Programming Interface
+*ATS*   Alberta Township Survey
+*FEM-STA*   Fugitive Emissions Management - SensorThings API
+*FEMP*   Fugitive Emissions Management Program
+*GeoJSON*   Geographic JSON
+*IANA*   Internet Assigned Numbers Authority
+*ID*   Identity Document
+*JSON*   JavaScript Object Notation
+*LSD*   Legal Subdivisions
+*OGC*   Open Geospatial Consortium
+*STA*   SensorThings API
+*URI*   Uniform Resource Identifier

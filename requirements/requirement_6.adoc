@@ -1,7 +1,7 @@
 [width="90%",cols="2,6"]
 |===
-|*Requirement 6* {set:cellbgcolor:#CACCCE}|/req/datastream/number-of-fugitive-emissions-relations +
+|*Requirement 6* {set:cellbgcolor:#CACCCE}|/req/datamodel/datastream/number-of-fugitive-emissions-relations +
  +
 
- The number of fugitive emissions "Datastream" entity SHALL have the direct relation between the "Datastream" entity and the entities listed in Table XX. {set:cellbgcolor:#FFFFFF}
+ The _number-of-fugitive-emissions_ "Datastream" entities SHALL have the direct relation between the "Datastream" entity and the entities listed in <<table_req6>>. {set:cellbgcolor:#FFFFFF}
 |===

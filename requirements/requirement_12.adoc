@@ -1,7 +1,7 @@
 [width="90%",cols="2,6"]
 |===
-|*Requirement 12* {set:cellbgcolor:#CACCCE}|/req/observation/observation-entity +
+|*Requirement 12* {set:cellbgcolor:#CACCCE}|/req/datamodel/observation/properties +
  +
 
-The "Observations" of the number-of-fugitive "Datastream" entity SHALL have the properties with the corresponding value and multiplicity listed in Table XX. {set:cellbgcolor:#FFFFFF}
+The "Observations" of the _number-of-fugitive_ "Datastream" entity SHALL have properties with the corresponding value and multiplicity listed in <<table_req12>>. {set:cellbgcolor:#FFFFFF}
 |===

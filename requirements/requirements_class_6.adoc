@@ -1,9 +1,10 @@
 [cols="1,4",width="90%"]
 |===
 2+|*Requirements Class* {set:cellbgcolor:#CACCCE}
-2+|http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/feature-of-interest {set:cellbgcolor:#FFFFFF}
+2+|http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/datamodel/feature-of-interest {set:cellbgcolor:#FFFFFF}
 |Target type |JSON Object Instance
-|Dependency |http://www.opengis.net/spec/iot_sensing/1.1/req/datastream
-|*Requirement 13* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/feature-of-interest/feature-of-interest-entity +
+|Dependency |http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/feature-of-interest
+|*Requirement 13* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/datamodel/feature-of-interest/properties +
+|*Requirement 14* {set:cellbgcolor:#CACCCE} |http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0/req/datamodel/feature-of-interest/relations +
 
 |===

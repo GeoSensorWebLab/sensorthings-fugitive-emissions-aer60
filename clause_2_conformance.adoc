@@ -1,14 +1,47 @@
 == Conformance
 This Best Practice defines XXXX.
 
-Requirements for N target types are considered:
-* AAAA
-* BBBB
+Conformance with this Best Practice shall be checked using all the relevant tests specified in annex a (normative) of this document.
 
-Conformance with this Best Practice shall be checked using all the relevant tests specified in Annex A (normative) of this document.
+All requirement classes and conformance classes described in this document are owned by the document(s) identified.
 
-In order to conform to this OGC® Best Practice, a software implementation shall choose to implement:
-* Any one of the conformance levels specified in Annex A (normative).
-* Any one of the Distributed Computing Platform profiles specified in Annexes TBD through TBD (normative).
+The following table lists the requirement classes defined in this Best Practice.
 
-All requirements-classes and conformance-classes described in this document are owned by the document(s) identified.
+[NOTE]
+The text in the _Requirements class id_ and _Requirements_ columns in the following table is the path fragment that,
+when appended to the URI: http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0, provides the URI that
+can be used to unambiguously identify the requirement and the conformance class.
+
+[cols="a,a,a"width="90%",options="header"]
+|===
+|Requirements class id |Requirements |Description
+|/req/datamodel/thing |
+* /req/datamodel/thing/properties
+* /req/datamodel/thing/relations |Thing entity
+
+|/req/datamodel/location |
+* /req/datamodel/location/properties
+* /req/datamodel/location/relations |Location entity
+
+|/req/datamodel/datastream |
+* /req/datamodel/datastream/number-of-fugitive-emissions-properties
+* /req/datamodel/datastream/number-of-fugitive-emissions-relations
+* /req/datamodel/datastream/fugitive-emissions-volume-properties
+* /req/datamodel/datastream/fugitive-emissions-volume-relations
+* /req/datamodel/datastream/fugitive-emissions-mass-properties
+* /req/datamodel/datastream/fugitive-emissions-mass-relations |Datastream entity
+
+|/req/datamodel/observed-property |
+* /req/datamodel/observed-property/properties |ObservedProperty entity
+
+|/req/datamodel/observation |
+* /req/datamodel/observation/properties |Observation entity
+
+|/req/datamodel/feature-of-interest |
+* /req/datamodel/feature-of-interest/properties
+* /req/datamodel/feature-of-interest/relations |FeatureOfInterest entity
+
+|/req/datamodel/sensor |
+* /req/datamodel/sensor/properties |Sensor Entity
+
+|===
