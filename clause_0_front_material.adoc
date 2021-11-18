@@ -6,7 +6,7 @@
 
 The following are keywords to be used by search engines and document catalogues.
 
-ogcdoc, OGC document,  <tags separated by commas>
+ogcdoc, OGC document,  sensor web, methane emissions, Internet of Things, SensorThings, climate change
 
 [big]*iii.   Preface*
 
@@ -21,10 +21,29 @@ Recipients of this document are requested to submit, with their comments, notifi
 
 The following organizations submitted this Document to the Open Geospatial Consortium (OGC):
 
-Organization name(s)
+SensorUp Inc., the University of Calgary, TC Energy, Fraunhofer IOSB
 
 [big]*v.     Submitters*
 
 All questions regarding this submission should be directed to the editor or the submitters:
 
-Name  Affiliation
+[width="90%",options="header"]
+|===
+|Name |Affliation
+|Steve Liang |SensorUp Inc./University of Calgary
+|John Tang |TC Energy
+|Patrick Kelly |TC Energy
+|Sara Saeedi |University of Calgary
+|Sina Kiaei |University of Calgary
+|Hylke van der Schaaf |Fraunhofer IOSB
+|===
+
+
+The editor would like to acknowledge that this work is the result of collaboration and review of many organizations and would like to thank for the comments and contributions from:
+
+* GeoConnections, Natural Resources Canada
+* Cenovus Energy
+* Canadian Natural Resources (CNRL)
+* Alberta Innovates
+
+Note: this does not imply a complete endorsement by these organizations.

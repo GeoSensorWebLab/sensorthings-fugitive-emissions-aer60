@@ -15,10 +15,10 @@
 |===
 |{set:cellbgcolor:#FFFFFF}
 |[big]*Open Geospatial Consortium*
-|Submission Date: <yyyy-mm-dd>
+|Submission Date: 2021-11-19
 |Approval Date:   <yyyy-mm-dd>
 |Publication Date:   <yyyy-mm-dd>
-|External identifier of this OGC(R) document: http://www.opengis.net/doc/BP/fm-aer60-sta/1.0
+|External identifier of this OGC(R) document: http://www.opengis.net/doc/BP/imsw-fm-aer60/1.0
 |Internal reference number of this OGC(R) document:    21-070
 |Version: 1.0
 |Category: OGC(R) Best Practice

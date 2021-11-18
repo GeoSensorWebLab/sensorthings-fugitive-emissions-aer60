@@ -210,7 +210,7 @@ include::requirements/requirements_class_6.adoc[]
 This requirement defines the mandatory properties and relations of the "FeatureOfInterest" entity related to the "Observations" of the three mandatory "Datastreams." In the context of fugitive emissions, the "FeatureOfInterest" of fugitive emissions "Observation" is where the leaks occur. In AER Directive 60, the "FeatureOfInterest" is modelled as a site. In some cases, a _reporting facility_ called "Thing" can have more than one site, such as wells, controlled tanks, process units, or wellhead https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=17[[AER Manual015 Figure 1]] and https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=19[[AER Manual015 Figure 3]]. The following figure describes the relationship between a _reporting facility_ "Thing" and "FeaturesOfInterest."
 
 [[fig-thing-featureofinterest-relationship]]
-[.text-center, width="90%"]
+[.text-center, width="60%"]
 .Thing and FeatureOfInterest Relationship
 image::figures/FIGn.002.png[Thing and FeatureOfInterest Relationship]
 
@@ -246,6 +246,7 @@ include::requirements/requirements_class_7.adoc[]
 
 ==== Requirement 15
 This requirement defines the mandatory properties and relations of the "Sensor" entity.
+
 [NOTE]
 ====
 The "Sensor" entity in this best practice is not an instrument, but rather it SHALL be an observation process
