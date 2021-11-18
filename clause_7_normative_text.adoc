@@ -193,7 +193,7 @@ include::requirements/requirements_class_6.adoc[]
 This requirement defines the mandatory properties and relations of the "FeatureOfInterest" entity related to the "Observations" of the three mandatory "Datastreams". In the context of the fugitive emissions, the "FeatureOfInterest" of a fugitive emissions "Observation" is where the leaks occur. In AER Directive 60, the "FeatureOfInterest" is modelled as a site. In some cases, a reporting facility "Thing" can have more than one site, such as wells, controlled tanks, process units, or wellhead https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=17[[AER Manual015 Figure 1]] and https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=19[[AER Manual015 Figure 3]]. The following figure describes the relationship between a reporting facility "Thing" and "FeaturesOfInterest".
 
 [[fig-thing-featureofinterest-relationship]]
-[.text-center, width="90%"]
+[.text-center, width="60%"]
 .Thing and FeatureOfInterest Relationship
 image::figures/FIGn.002.png[Thing and FeatureOfInterest Relationship]
 
@@ -204,9 +204,10 @@ include::requirements/requirement_13.adoc[]
 [width="90%",options="header"]
 |===
 |Names |Definition |Data types and values |Multiplicity and use
-|phenomenonTime |The time period of when the "Observation" happens. |TM_Period |One
-|result |the number of fugitive emissions |Integer |One
-|parameters |Key-value pairs describing an event-specifc parameter.  |the value SHALL be a JSON object, with a key of "Survey or Screening Type", and the corresponding value SHALL be one of the following: "ALTFEMP", "SITESURVEY", "TANKSURVEY", "WELLSCREENING" |One
+|name |the well ID or site ID that is associated with the facility ID |CharacterString, the value SHALL be a valid well or site ID |One
+|description |site description |CharacterString |One
+|encodingType |the IANA media type for GeoJSON  |character string type, and the value shall be "application/geo+json" |One
+|feature |the GeoJSON polygon https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.6[[RFC7946]] represents the site boundary |a GeoJSON Polygon object, and the value of the GeoJSON Polygon coordinates shall be the boundary of the site or well |One
 |===
 
 === Requirement Class: Sensor
@@ -214,7 +215,7 @@ include::requirements/requirement_13.adoc[]
 include::requirements/requirements_class_7.adoc[]
 
 ==== Requirement 14
-This requirement defines the mandatory properties and relations of the "Sensor" entity. The "Sensor" entity in this best practice is not an instrument, but rather it SHALL be an observation process file:///Users/steveliang/Downloads/10-004r3_Topic_20_Observations_and_Measurements.pdf#page=20[[ISO/OGC 19156:2001 OM_Process]] describing the Fugitive Emissions Management Program (FEMP) that generates the observation result.
+This requirement defines the mandatory properties and relations of the "Sensor" entity. The "Sensor" entity in this best practice is not an instrument, but rather it SHALL be an observation process https://portal.ogc.org/files/?artifact_id=41579#page=20[[ISO/OGC 19156:2001 OM_Process]] describing the Fugitive Emissions Management Program (FEMP) that generates the observation result.
 
 include::requirements/requirement_14.adoc[]
 .Properties of a Sensor entity
