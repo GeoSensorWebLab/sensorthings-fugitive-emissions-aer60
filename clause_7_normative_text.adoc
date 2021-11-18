@@ -23,6 +23,7 @@ include::requirements/requirement_1.adoc[]
 This requirement defines the direct relation between the "Thing" entity and the "Location" and "Datastream" entities.
 
 include::requirements/requirement_2.adoc[]
+
 [#table_req2,reftext='{table-caption} {counter:table-num}']
 .Direct relation between a _reporting facility_ "Thing" entity and other entity types
 [width="90%",options="header"]
@@ -40,6 +41,7 @@ include::requirements/requirements_class_2.adoc[]
 This requirement defines the mandatory properties and relations of the "Location" of the _reporting facility_.
 
 include::requirements/requirement_3.adoc[]
+
 .Properties of a _reporting facility_ Location entity
 [#table_req3,reftext='{table-caption} {counter:table-num}']
 [width="90%",options="header"]
