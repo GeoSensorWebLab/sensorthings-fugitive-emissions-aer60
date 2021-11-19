@@ -3,10 +3,9 @@
 :appendix-caption: Annex
 == Conformance Class Abstract Test Suite (Normative)
 
-This section contains the conformance classes for the OGC Integrated Methane Sensor Web for Emissions Management Best Practice - Part I - Fugitive Emissions Management based on AER Directive 60.
-The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to pass all the conformance tests defined in this section as well as the https://docs.ogc.org/is/18-088/18-088.html#_conformance_class_abstract_test_suite_normative[OGC SensorThings API Part 1: Sensing Version 1.1] Conformance Class Abstract Test Suit.
+This section contains the conformance classes for the OGC Integrated Methane Sensor Web for Emissions Management Best Practice - Part I - Fugitive Emissions Management based on AER Directive 60. An SensorThings API service, that is compliant to this BP, needs to pass all the conformance tests defined in this section as well as the https://docs.ogc.org/is/18-088/18-088.html#_conformance_class_abstract_test_suite_normative[OGC SensorThings API Part 1: Sensing Version 1.1] Conformance Class Abstract Test Suit.
 
-=== Conformance Class: FEM-STA Thing
+=== Conformance Class: Thing
 
 [cols=",,",]
 |==================================================================================================================================
@@ -18,18 +17,18 @@ The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to 
 
 .5+| *Test 1* 2+| /conf/datamodel/thing/properties
 |Requirement | /req/datamodel/thing/properties
-|Test purpose | Verify that the Thing entity has mandatory properties as defined in FEM-STA Specification.
+|Test purpose | Verify that the Thing entity has mandatory properties as defined in this BP Specification.
 |Test method | Inspect the entire JSON object of the Thing entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 
 .5+| *Test 2* 2+| /conf/datamodel/thing/relations
 |Requirement | /req/datamodel/thing/relations
-|Test purpose | Verify that the Thing entity has mandatory relations as defined in FEM-STA Specification.
+|Test purpose | Verify that the Thing entity has mandatory relations as defined in this BP Specification.
 |Test method | Inspect the entire JSON object of each Thing entity set to identify if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM-STA Location
+=== Conformance Class: Location
 
 [cols=",,",]
 |==================================================================================================================================
@@ -41,18 +40,18 @@ The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to 
 
 .5+| *Test 3* 2+| /conf/datamodel/location/properties
 |Requirement | /req/datamodel/location/properties
-|Test purpose | Verify that the Location entity has the mandatory properties as defined in FEM-STA Specification.
+|Test purpose | Verify that the Location entity has the mandatory properties as defined in this BP Specification.
 |Test method | Inspect the full JSON object of the Location entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 
 .5+| *Test 4* 2+| /conf/datamodel/location/relations
 |Requirement | /req/datamodel/location/relations
-|Test purpose | Verify that the Location entity has the mandatory relations as defined in FEM-STA Specification.
+|Test purpose | Verify that the Location entity has the mandatory relations as defined in this BP Specification.
 |Test method | Inspect the full JSON object of each Location entity set to identify if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM-STA Datastream
+=== Conformance Class: Datastream
 
 [cols=",,",]
 |==================================================================================================================================
@@ -72,42 +71,42 @@ The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to 
 
 .5+| *Test 5* 2+| /conf/datamodel/datastream/number-of-fugitive-emissions-properties
 |Requirement | /req/datamodel/datastream/number-of-fugitive-emissions-properties
-|Test purpose | Verify that each _number-of-fugitive-emissions_ Datastream entity has the mandatory properties as defined in FEM-STA Specification.
+|Test purpose | Verify that each _number-of-fugitive-emissions_ Datastream entity has the mandatory properties as defined in this BP Specification.
 |Test method | Inspect the full JSON object of the _number-of-fugitive-emissions_ Datastream entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 
 .5+| *Test 6* 2+| /conf/datamodel/datastream/number-of-fugitive-emissions-relations
 |Requirement | /req/datamodel/datastream/number-of-fugitive-emissions-relations
-|Test purpose | Verify that each _number-of-fugitive-emissions_ Datastream entity has the mandatory relations as defined in FEM-STA Specification.
+|Test purpose | Verify that each _number-of-fugitive-emissions_ Datastream entity has the mandatory relations as defined in this BP Specification.
 |Test method | Inspect the full JSON object of each _number-of-fugitive-emissions_ Datastream entity set to identify if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 
 .5+| *Test 7* 2+| /conf/datamodel/datastream/fugitive-emissions-volume-properties
 |Requirement | /req/datamodel/datastream/fugitive-emissions-volume-properties
-|Test purpose | Verify that each _fugitive-emissions-volume_ Datastream entity has the mandatory properties as defined in FEM-STA Specification.
+|Test purpose | Verify that each _fugitive-emissions-volume_ Datastream entity has the mandatory properties as defined in this BP Specification.
 |Test method | Inspect the full JSON object of the _fugitive-emissions-volume_ Datastream entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 
 .5+| *Test 8* 2+| /conf/datamodel/datastream/fugitive-emissions-volume-relations
 |Requirement | /req/datamodel/datastream/fugitive-emissions-volume-relations
-|Test purpose | Verify that each _fugitive-emissions-volume_ Datastream entity has the mandatory relations as defined in FEM-STA Specification.
+|Test purpose | Verify that each _fugitive-emissions-volume_ Datastream entity has the mandatory relations as defined in this BP Specification.
 |Test method | Inspect the full JSON object of each _fugitive-emissions-volume_ Datastream entity set to identify if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 
 .5+| *Test 9* 2+| /conf/datamodel/datastream/fugitive-emissions-mass-properties
 |Requirement | /req/datamodel/datastream/fugitive-emissions-mass-properties
-|Test purpose | Verify that each _fugitive-emissions-mass_ Datastream entity has the mandatory properties as defined in FEM-STA Specification.
+|Test purpose | Verify that each _fugitive-emissions-mass_ Datastream entity has the mandatory properties as defined in this BP Specification.
 |Test method | Inspect the full JSON object of the _fugitive-emissions-mass_ Datastream entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 
 .5+| *Test 10* 2+| /conf/datamodel/datastream/fugitive-emissions-mass-relations
 |Requirement | /req/datamodel/datastream/fugitive-emissions-mass-relations
-|Test purpose | Verify that each _fugitive-emissions-mass_ Datastream entity has the mandatory relations as defined in FEM-STA Specification.
+|Test purpose | Verify that each _fugitive-emissions-mass_ Datastream entity has the mandatory relations as defined in this BP Specification.
 |Test method | Inspect the full JSON object of each _fugitive-emissions-mass_ Datastream entity set to identify if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM-STA ObservedProperty
+=== Conformance Class: ObservedProperty
 
 [cols=",,",]
 |==================================================================================================================================
@@ -117,12 +116,12 @@ The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to 
 
 .5+| *Test 11* 2+| /conf/datamodel/observed-property/properties
 |Requirement | /req/datamodel/observed-property/properties
-|Test purpose | Verify that the ObservedProperty entity has the mandatory properties as defined in FEM-STA Specification.
+|Test purpose | Verify that the ObservedProperty entity has the mandatory properties as defined in this BP Specification.
 |Test method | Inspect the full JSON object of the ObservedProperty entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM-STA Observation
+=== Conformance Class: Observation
 
 [cols=",,",]
 |==================================================================================================================================
@@ -132,12 +131,12 @@ The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to 
 
 .5+| *Test 12* 2+| /conf/datamodel/observation/properties
 |Requirement | /req/datamodel/observation/properties
-|Test purpose | Verify that the Observation entity has the mandatory properties as defined in FEM-STA Specification.
+|Test purpose | Verify that the Observation entity has the mandatory properties as defined in this BP Specification.
 |Test method | Inspect the full JSON object of the Observation entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM-STA FeatureOfInterest
+=== Conformance Class: FeatureOfInterest
 
 [cols=",,",]
 |==================================================================================================================================
@@ -147,12 +146,12 @@ The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to 
 
 .5+| *Test 13* 2+| /conf/datamodel/feature-of-interest/properties
 |Requirement | /req/datamodel/feature-of-interest/properties
-|Test purpose | Verify that the FeatureOfInterest entity has the mandatory properties as defined in FEM-STA Specification.
+|Test purpose | Verify that the FeatureOfInterest entity has the mandatory properties as defined in this BP Specification.
 |Test method | Inspect the full JSON object of the FeatureOfInterest entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 |==================================================================================================================================
 
-=== Conformance Class: FEM-STA Sensor
+=== Conformance Class: Sensor
 
 [cols=",,",]
 |==================================================================================================================================
@@ -162,7 +161,7 @@ The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to 
 
 .5+| *Test 14* 2+| /conf/datamodel/sensor/properties
 |Requirement | /req/datamodel/sensor/properties
-|Test purpose | Verify that the Sensor entity has the mandatory properties as defined in FEM-STA Specification.
+|Test purpose | Verify that the Sensor entity has the mandatory properties as defined in this BP Specification.
 |Test method | Inspect the full JSON object of the Sensor entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 |==================================================================================================================================
