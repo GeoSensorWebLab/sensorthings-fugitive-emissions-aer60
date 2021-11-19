@@ -1,6 +1,6 @@
 [width="90%",cols="2,6"]
 |===
-|*Requirement 5* {set:cellbgcolor:#CACCCE}|/req/datamodel/datastream/number-of-fugitive-emissions-entity +
+|*Requirement 5* {set:cellbgcolor:#CACCCE}|/req/datamodel/datastream/number-of-fugitive-emissions-properties +
  +
 
 The _reporting facility_ "Thing" SHALL have a _number-of-fugitive-emissions_ "Datastream" entity that has the properties with the corresponding value and multiplicity listed in <<table_req5>>. {set:cellbgcolor:#FFFFFF}

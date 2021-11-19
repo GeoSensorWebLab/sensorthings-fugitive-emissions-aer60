@@ -1,6 +1,6 @@
 [width="90%",cols="2,6"]
 |===
-|*Requirement 15* {set:cellbgcolor:#CACCCE}|/req/datamodel/sensor/sensor-entity +
+|*Requirement 15* {set:cellbgcolor:#CACCCE}|/req/datamodel/sensor/properties +
  +
 
  A "Sensor" in this best practice is an observation process describing the Fugitive Emissions Management Program (FEMP) that generates the observation result.

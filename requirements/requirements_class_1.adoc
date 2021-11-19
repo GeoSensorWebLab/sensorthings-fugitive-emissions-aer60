@@ -3,11 +3,13 @@
 2+|*Requirements Class* {set:cellbgcolor:#CACCCE}
 2+| http://www.opengis.net/spec/imsw-fm-aer60/1.0/req/datamodel/thing {set:cellbgcolor:#FFFFFF}
 |Target type |JSON Object Instance
+
 |Dependency | http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel/thing
 |*Requirement 1* {set:cellbgcolor:#CACCCE} | http://www.opengis.net/spec/imsw-fm-aer60/1.0/req/datamodel/thing/properties +
 
 This requirement defines the mandatory properties of a _reporting facility_ (as a Thing).
 |*Requirement 2* {set:cellbgcolor:#CACCCE} | http://www.opengis.net/spec/imsw-fm-aer60/1.0/req/datamodel/thing/relations +
+
 
 This requirement defines the direct relation between the "Thing" entity and the "Location" and "Datastream" entities.
 |===
