@@ -42,4 +42,10 @@ OGC: OGC 15-097 OGC Geospatial User Feedback Standard. Conceptual Model (2016)
 OGC: OGC 12-019, OGC City Geography Markup Language (CityGML) Encoding Standard (2012)
 
 OGC: OGC 14-005r3, OGC IndoorGML (2014)
+
+//[http://www.ipcc.ch/report/ar4/[IPCC 2007]].
+//https://www.ogc.org/standards/swes[OGC Sensor Web Enablement (SWE)]
+//https://www.nap.edu/read/24987/chapter/1[National Academies of Sciences, Engineering, and Medicine. 2018]
+//[https://static.aer.ca/prd/documents/directives/Directive060.pdf[AER Directive 60]
+
 ====

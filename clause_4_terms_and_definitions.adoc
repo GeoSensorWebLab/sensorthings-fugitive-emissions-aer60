@@ -14,3 +14,13 @@ For the purposes of this document, the following additional terms and definition
 *Petrinex*   Canada’s Petroleum Information Network
 
 *Site*   The area defined by the boundaries of a surface lease for upstream oil and gas facilities and wells (pads counted as one lease).
+
+//*Leak*
+
+//*Regulations*
+
+//*Fugitive Emission Management Program*
+
+//*Vent Emission*
+
+//*Combustion Emission*

@@ -20,6 +20,8 @@ All requirements and conformance tests that appear in this document are denoted 
 
 *CNRL* Canadian Natural Resources
 
+//*CH4*
+
 *EPA*   Environmental Protection Agency
 
 *FEM-STA*   Fugitive Emissions Management - SensorThings API
@@ -31,6 +33,8 @@ All requirements and conformance tests that appear in this document are denoted 
 *GPS* Global Positioning System
 
 *IANA*   Internet Assigned Numbers Authority
+
+//IPCC
 
 *ID*   Identity Document
 
