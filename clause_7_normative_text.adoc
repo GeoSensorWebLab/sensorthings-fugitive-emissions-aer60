@@ -1,6 +1,13 @@
 == Fugitive Emissions Management SensorThings API Specification - Part I - AER Directive 60
 This chapter describes the entities, their properties and values, and their relations for fugitive emissions reporting requirements based on https://www.aer.ca/regulating-development/rules-and-directives/directives/directive-060[AER Directive 60].
 
+The SensorThings API Entities of this Best Practice are depicted in the following figure.
+
+[[fig-data-model-uml]]
+[.text-center, width="100%"]
+.SensorThings API Entities for the Fugitive Emissions AER 60 Best Practice
+image::figures/FIGn.002.jpg[SensorThings API Entities for the Fugitive Emissions AER 60 Best Practice]
+
 === Requirement Class: Thing
 
 include::requirements/requirements_class_1.adoc[]
@@ -214,7 +221,7 @@ This requirement defines the mandatory properties of the "FeatureOfInterest" ent
 [[fig-thing-featureofinterest-relationship]]
 [.text-center, width="60%"]
 .Thing and FeatureOfInterest Relationship
-image::figures/FIGn.002.png[Thing and FeatureOfInterest Relationship]
+image::figures/FIGn.003.png[Thing and FeatureOfInterest Relationship]
 
 An Observation results in a value that is being assigned to a phenomenon. The phenomenon is a property of a feature, the latter being the FeatureOfInterest of the Observation [OGC and ISO 19156:2011]. In the context of this best practice, the FeatureOfInterest is the _site_ and can be identified by the site's location. For example, the FeatureOfInterest of a wifi-connected thermostat can be the thermostat's location (_i.e._, the living room where the thermostat is located). In the case of remote sensing, FeatureOfInterest can be the geographical area or volume that is being sensed.
 
