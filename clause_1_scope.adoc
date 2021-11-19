@@ -7,7 +7,7 @@ Venting and combustion methane emissions are out of scope in this BP, and they a
 
 === Roadmap
 
-This OGC BP is the first part of the OGC Integrated Methane Sensor Web for Emissions Management BPs. We plan to publish a series of OGC BPs for methane emissions management, including fugitive and venting emissions. The goal is to develop the building blocks for an integrated Methane Emissions Sensor Web, enabling seamless flows of observation data from SensorThings nodes with heterogeneous sensing sources (i.e., multiple disparate methane observation systems), to SensorThings nodes with analytics-ready data (i.e., a aggregated methane emissions datalake), and eventually to SensorThings nodes with compliance-ready data (i.e., data complianct to various regulatory organizations in different jurisdictions).
+This OGC BP is the first part of the OGC Integrated Methane Sensor Web for Emissions Management BPs. We plan to publish a series of OGC BPs for methane emissions management, including fugitive and venting emissions. The goal is to develop the building blocks for an Integrated Methane Emissions Sensor Web, enabling seamless flows of observation data from SensorThings nodes with heterogeneous sensing sources (i.e., multiple disparate methane observation systems), to SensorThings nodes with analytics-ready data (i.e., a aggregated methane emissions datalake), and eventually to SensorThings nodes with compliance-ready data (i.e., data compliant to various regulatory organizations in different jurisdictions).
 
 Figure below shows the roadmap of the different OGC BPs to be developed and their relationship.
 

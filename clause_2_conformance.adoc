@@ -1,15 +1,15 @@
 == Conformance
-This Best Practice defines XXXX.
+This OGC BP defines a SensorThings API for fugitive methane emissions management.
 
-Conformance with this Best Practice shall be checked using all the relevant tests specified in annex a (normative) of this document.
+Conformance with this OGC BP shall be checked using all the relevant tests specified in annex a (normative) of this document.
 
 All requirement classes and conformance classes described in this document are owned by the document(s) identified.
 
-The following table lists the requirement classes defined in this Best Practice.
+The following table lists the requirement classes defined in this OGC BP.
 
 [NOTE]
 The text in the _Requirements class id_ and _Requirements_ columns in the following table is the path fragment that,
-when appended to the URI: http://www.opengis.net/spec/sensorthings-fugitive-emissions-ab/1.0, provides the URI that
+when appended to the URI: http://www.opengis.net/spec/imsw-fm-aer60/1.0, provides the URI that
 can be used to unambiguously identify the requirement and the conformance class.
 
 [cols="a,a,a"width="90%",options="header"]
@@ -38,8 +38,7 @@ can be used to unambiguously identify the requirement and the conformance class.
 * /req/datamodel/observation/observation-entity |Observation entity
 
 |/req/datamodel/feature-of-interest |
-* /req/datamodel/feature-of-interest/feature-of-interest-entity
-* /req/datamodel/feature-of-interest/feature-of-interest-relations |FeatureOfInterest entity
+* /req/datamodel/feature-of-interest/properties |FeatureOfInterest entity
 
 |/req/datamodel/sensor |
 * /req/datamodel/sensor/sensor-entity |Sensor Entity

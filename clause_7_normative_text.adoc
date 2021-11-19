@@ -228,23 +228,11 @@ include::requirements/requirement_13.adoc[]
 |feature |The GeoJSON polygon https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.6[[RFC7946]] represents the site boundary |A GeoJSON Polygon object, and the value of the GeoJSON Polygon coordinates shall be the boundary of the site or well |One
 |===
 
-==== Requirement 14
-This requirement defines the direct relation between the "FeatureOfInterest" entity and the "Observation" entity.
-
-include::requirements/requirement_14.adoc[]
-[#table_req14,reftext='{table-caption} {counter:table-num}']
-.Direct relation between a FeatureOfInterest entity and the Observation entity
-[width="90%",options="header"]
-|===
-|Entity type |Relation |Description
-|Observation |Many optional |An "Observation" observes on one-and-only-one FeatureOfInterest. One "FeatureOfInterest" could be observed by zero-to-many "Observations".
-|===
-
 === Requirement Class: Sensor
 
 include::requirements/requirements_class_7.adoc[]
 
-==== Requirement 15
+==== Requirement 14
 This requirement defines the mandatory properties and relations of the "Sensor" entity.
 [NOTE]
 ====
@@ -252,8 +240,8 @@ The "Sensor" entity in this best practice is not an instrument, but rather it SH
 https://www.ogc.org/standards/om[ISO/OGC 19156:2001 OM_Process] describing the Fugitive Emissions Management Program (FEMP) that generates the observation result.
 ====
 
-include::requirements/requirement_15.adoc[]
-[#table_req15,reftext='{table-caption} {counter:table-num}']
+include::requirements/requirement_14.adoc[]
+[#table_req14,reftext='{table-caption} {counter:table-num}']
 .Properties of a Sensor entity
 [width="90%",options="header"]
 |===
