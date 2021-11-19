@@ -7,3 +7,47 @@ The normative provisions in this document are denoted by the URI
 http://www.opengis.net/spec/imsw-fm-aer60/1.0
 
 All requirements and conformance tests that appear in this document are denoted by partial URIs which are relative to this base.
+
+=== Abbreviations
+
+*AER*   Alberta Energy Regulator
+
+*API*   Application Programming Interface
+
+*ATS*   Alberta Township Survey
+
+*BP*   Best Practice
+
+*CNRL* Canadian Natural Resources
+
+*EPA*   Environmental Protection Agency
+
+*FEM-STA*   Fugitive Emissions Management - SensorThings API
+
+*FEMP*   Fugitive Emissions Management Program
+
+*GeoJSON*   Geographic JSON
+
+*GPS* Global Positioning System
+
+*IANA*   Internet Assigned Numbers Authority
+
+*ID*   Identity Document
+
+*JSON*   JavaScript Object Notation
+
+*LDAR*   Leak Detection and Repair
+
+*LSD*   Legal Subdivisions
+
+*OGC*   Open Geospatial Consortium
+
+*OGI*   Optical Gas Imaging
+
+*STA*   SensorThings API
+
+*SWE*   Sensor Web Enablement
+
+*URI*   Uniform Resource Identifierswe
+
+*VOC*   Volatile Organic Carbon

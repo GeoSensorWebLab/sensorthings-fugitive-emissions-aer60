@@ -1,12 +1,13 @@
 == Scope
+
 Methane (CH4) is one of the most potent greenhouse gases, and the comparative impact of methane is 25 times greater than CO2 over a 100-year period http://www.ipcc.ch/report/ar4/[[IPCC 2007]]. Methane is an invisible and odourless gas, and it is very labour intensive and time consuming in order to detect and repair the leaks. Current methane emission management solutions are fragmented and being developed without standards, ultimately leading to a complex network of incompatible sensing solutions that need to interrelate but are not possible. However there is no single methane sensing technology that can meet the accuracy, spatio-temporal resolution, and low-cost requirements. There is a need to interconnect the heterogeneous existing and emerging methane sensing technologies, ranging from satellites, drones, fixed-wing fly-overs, vehicle-based systems, continuous in-situ monitoring stations, to handheld Optical Gas Imaging (OGI) devices. *An effective methane emissions management solution needs an integrated methane sensor web.* OGC Sensor Web Enablement (SWE) provides the fundamental standard building blocks for the integrated methane sensor web.
 
 [[fig-methane-sensor-data-examples]]
 [.text-center, width="90%"]
-.Examples of methane measurement platforms operating across a variety of spatial and temporal scales. https://www.nap.edu/read/24987/chapter/1[[FNational Academies of Sciences, Engineering, and Medicine. 2018]]
-image::https://www.nap.edu/openbook/24987/xhtml/images/img-94.jpg[Examples of methane measurement platforms]
+.Examples of methane measurement platforms operating across a variety of spatial and temporal scales. [https://www.nap.edu/read/24987/chapter/1[National Academies of Sciences, Engineering, and Medicine. 2018]]
+image::figures/FIGn.001.jpg[Examples of methane measurement platforms]
 
-This OGC Best Practice (OGC BP) defines a SensorThings API for fugitive methane emissions management. Regulations play a critical role for methane emissions reduction, and how methane emissions are detected, repaired, and managed highly dependent on the local regulation. This OGC BP is designed based on the Alberta Energy Regulator's regulatory requirement for fugitive emissions management https://static.aer.ca/prd/documents/directives/Directive060.pdf[[AER Directive 60]].
+This OGC Best Practice (OGC BP) defines a SensorThings API for fugitive methane emissions management. Regulations play a critical role for methane emissions reduction, and how methane emissions are detected, repaired, and managed highly dependent on the local regulation. This OGC BP is designed based on the Alberta Energy Regulator's regulatory requirement for fugitive emissions management [https://static.aer.ca/prd/documents/directives/Directive060.pdf[AER Directive 60]].
 
 This OGC BP document provides a data model and API for the exchange of fugitive emissions observation data and the necessary metadata, both within and between different organizations.  For example, it can be used for leak detection and repair service providers to prepare and exchange fugitive emissions observation data with the facility operators. Facility operators can also use the OGC BP to exchange fugitive emissions data within the organization and with regulators.
 

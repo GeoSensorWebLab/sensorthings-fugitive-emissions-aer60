@@ -6,17 +6,16 @@ In the Fifth Assessment Report (AR5)[3], the IPCC estimates the GWP of methane t
 
 Methane emissions sensing technologies can be categorized by the methane sensor types or by the methane sensing platforms. Based on its sensing priciples, methane emssions sensors can be categorized into the following types: (1) optical sensors, (2) calorimetric sensors, (3) pyroelectric sensors, (4) semiconducting metal oxide sensors, and (5) electrochemical sensors. The following table summarize their advantages and disvantages. Aldhafeeri et al provides a comprehensive review of methane gas detection sensors, including the recent development and future perspectives [https://www.mdpi.com/2411-5134/5/3/28/htm[Aldhafeeri 2020]].
 
-
 Methane concentration measurements are mostly made with optical instruments, using either laser spectroscopy or imaging spectrometry [6]. Laser spectroscopy determines the concentration of target molecules by measuring the characteristic absorption of a mid- or near-infrared laser along a path length of meters to kilometers. Unlike laser-based instruments, imaging spectrometers measure spectral densities using pixel-based sensor elements. Imaging spectrometers generate a multi-pixel field of view measurement that captures column-integrated concentrations. Other sensor classes exist, such as ionization devices and differential absorption light detection and ranging [5]. These sensor classes are used different types of platforms. Five general platforms for detecting and screening fugitive emissions are handheld instruments, fixed sensors, a vehicle with mounted sensors, aerial vehicles, and satellites. In the following, we are going to introduce each platform.
 
 === Handheld Instruments
 
-For many years the standard leak detection practice has been https://www.epa.gov/emc/method-21-volatile-organic-compound-leaks[EPA method 21: Determination of Volatile Organic Carbon Leaks]. EPA method 21 requires that components be surveyed using a method 21 compliant portable instrument that can measure the volatile organic carbon (VOC) concentration near each component with sufficient accuracy. Method 21 is still favored by some operators, but the use is declining as Gas-imaging cameras are more convenient. Gas-imaging cameras often referred to as optical gas-imaging (OGI) cameras, are a tool for detecting fugitive emission sources. These cameras provide images and video recordings of leaks that are invisible to the human eye. In recent years, OGI cameras have become the standard for LDAR because they generate easily communicable and intuitive results for reporting purposes, and are more efficient than Method 21, as they survey components remotely.
+For many years the standard leak detection practice has been https://www.epa.gov/emc/method-21-volatile-organic-compound-leaks[EPA method 21: Determination of Volatile Organic Carbon Leaks]. EPA method 21 requires that components be surveyed using a method 21 compliant portable instrument that can measure the volatile organic carbon (VOC) concentration near each component with sufficient accuracy. Method 21 is still favored by some operators, but the use is declining as Gas-imaging cameras are more convenient. Gas-imaging cameras often referred to as optical gas-imaging (OGI) cameras, are a tool for detecting fugitive emission sources. These cameras provide images and video recordings of leaks that are invisible to the human eye. In recent years, OGI cameras have become the standard for Leak Detection and Repair (LDAR) because they generate easily communicable and intuitive results for reporting purposes, and are more efficient than Method 21, as they survey components remotely.
 
 [[fig-ogi-flir-data]]
 [.text-center, width="60%"]
 .A field technican performs methane emission survey with an optical gas imaging camera [https://pubs.acs.org/doi/full/10.1021/acs.est.0c01285[Zimmerle et al., 2020]]
-image::https://pubs.acs.org/na101/home/literatum/publisher/achs/journals/content/esthag/2020/esthag.2020.54.issue-18/acs.est.0c01285/20200908/images/large/es0c01285_0005.jpeg[OGI survey]
+image::figures/FIGn.003.jpeg[OGI survey]
 
 ===	Fixed Sensors
 
@@ -25,8 +24,7 @@ Fixed sensors are deployed in high-risk areas and provide continuous readings of
 [[fig-soofie-data]]
 [.text-center, width="90%"]
 .Example data of SOOFIE
-image::http://www.scientificaviation.com/wp-content/uploads/2020/04/confirmed_save.png[Example data of SOOFIE]
-
+image::figures/FIGn.004.png[Example data of SOOFIE]
 
 ===	Vehicle With Mounted Sensor
 
@@ -34,8 +32,8 @@ Vehicles equipped with methane sensors and anemometers to account for atmospheri
 
 [[fig-mobile-ground-lab]]
 [.text-center, width="90%"]
-.A methane measurement mobile ground lab system https://pubs.acs.org/doi/full/10.1021/es503070q[[Brantley, et al. 2014]]
-image::https://pubs.acs.org/na101/home/literatum/publisher/achs/journals/content/esthag/2014/esthag.2014.48.issue-24/es503070q/20141211/images/large/es-2014-03070q_0007.jpeg[Example mobile ground lab system]
+.A methane measurement mobile ground lab system [https://pubs.acs.org/doi/full/10.1021/es503070q[Brantley, et al. 2014]]
+image::figures/FIGn.005.jpeg[Example mobile ground lab system]
 
 ===	Aerial Vehicle
 
@@ -43,10 +41,8 @@ Aerial vehicles, such as piloted aircraft or unmanned aerial vehicles, mounted w
 
 [[fig-bridger-data]]
 [.text-center, width="90%"]
-.Example data of Bridger Photonics https://www.sciencedirect.com/science/article/pii/S003442572100136X[[Johnson, et al. 2021]]
-image::https://ars.els-cdn.com/content/image/1-s2.0-S003442572100136X-gr2_lrg.jpg[Example data of Bridger Photonics]
-
-
+.Example data of Bridger Photonics [https://www.sciencedirect.com/science/article/pii/S003442572100136X[Johnson, et al. 2021]]
+image::figures/FIGn.006.jpg[Example data of Bridger Photonics]
 
 ===	Satellites
 
@@ -54,8 +50,7 @@ Satellites that use optical imaging technologies, such as thermal and short-wave
 
 [[fig-ghgsat-data]]
 [.text-center, width="90%"]
-.Example data of GHGSat https://pubs.acs.org/doi/full/10.1021/acs.est.0c01213[[Varon et al., 2020]]
-image::https://pubs.acs.org/na101/home/literatum/publisher/achs/journals/content/esthag/2020/esthag.2020.54.issue-16/acs.est.0c01213/20200812/images/large/es0c01213_0004.jpeg[Example data of GHGSat]
-
+.Example data of GHGSat [https://pubs.acs.org/doi/full/10.1021/acs.est.0c01213[Varon et al., 2020]]
+image::figures/FIGn.007.jpeg[Example data of GHGSat]
 
 === Clauses not containing normative material sub-clause 2
