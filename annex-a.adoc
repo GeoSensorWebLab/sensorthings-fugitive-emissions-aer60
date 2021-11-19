@@ -1,4 +1,5 @@
 [[appendixA]]
+[appendix]
 :appendix-caption: Annex
 == Conformance Class Abstract Test Suite (Normative)
 
