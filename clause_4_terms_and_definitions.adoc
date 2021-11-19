@@ -5,19 +5,19 @@ For the purposes of this document, the following additional terms and definition
 
 *Facility ID*
 
-  A unique facility identification code, with 4 letters and 7 numbers (e.g., ABWP1234567), assigned by Petrinex to each facility [AER Directive 60].
+  A unique facility identification code, with 4 letters and 7 numbers (e.g., ABWP1234567), assigned by Petrinex to each facility [AER Directive 60 (2021)].
 
 *Fugitive Emissions*
 
-  Unintentional releases of hydrocarbons to the atmosphere [AER Directive 60].
+  Unintentional releases of hydrocarbons to the atmosphere [AER Directive 60 (2021)].
 
-*Fugitive Emissions Screenings*   
+*Fugitive Emissions Screenings*
 
-  Site-wide evaluations where the primary purpose is to identify fugitive emissions (e.g., from open thief hatches). These are less comprehensive than fugitive emission surveys [AER Directive 60].
+  Site-wide evaluations where the primary purpose is to identify fugitive emissions (e.g., from open thief hatches). These are less comprehensive than fugitive emission surveys [AER Directive 60 (2021)].
 
 *Fugitive Emission Surveys*
 
-  Site-wide evaluations that use equipment-based methods to detect and identify sources of fugitive emissions for repair. These surveys are considered comprehensive evaluations that can assist in reducing both small volumes and large volumes of fugitive emissions [AER Directive 60].
+  Site-wide evaluations that use equipment-based methods to detect and identify sources of fugitive emissions for repair. These surveys are considered comprehensive evaluations that can assist in reducing both small volumes and large volumes of fugitive emissions [AER Directive 60 (2021)].
 
 *Petrinex*
 
@@ -25,7 +25,7 @@ For the purposes of this document, the following additional terms and definition
 
 *Site*
 
-  The area defined by the boundaries of a surface lease for upstream oil and gas facilities and wells (pads counted as one lease) [AER Directive 60].
+  The area defined by the boundaries of a surface lease for upstream oil and gas facilities and wells (pads counted as one lease) [AER Directive 60 (2021)].
 
 *Leak*
 
@@ -43,7 +43,7 @@ For the purposes of this document, the following additional terms and definition
 *Fugitive Emissions Management Program*
 
   A plan and supporting systems to systematically detect and manage fugitive emissions.
-  Fugitive Emissions Management Programs are intended to complement a duty holder's overall emissions reduction strategy [AER Directive 60].
+  Fugitive Emissions Management Programs are intended to complement a duty holder's overall emissions reduction strategy [AER Directive 60 (2021)].
 
 *Vent Emission*
 
