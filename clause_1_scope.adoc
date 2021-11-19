@@ -8,10 +8,10 @@ Current methane emission management solutions are fragmented and developed witho
 .Examples of methane measurement platforms operating across a variety of spatial and temporal scales. (https://www.nap.edu/read/24987/chapter/1[National Academies of Sciences, Engineering, and Medicine. 2018])
 image::figures/FIGn.001.jpg[Examples of methane measurement platforms]
 
-This OGC Best Practice (OGC BP) defines a SensorThings API for fugitive methane emissions management. Regulations play a critical role in methane emissions reduction, and how methane emissions are detected, repaired, and managed is highly dependent on local regulations. 
+This OGC Best Practice (OGC BP) defines a SensorThings API for fugitive methane emissions management. Regulations play a critical role in methane emissions reduction, and how methane emissions are detected, repaired, and managed is highly dependent on local regulations.
 This OGC BP is designed based on the Alberta Energy Regulator's regulatory requirement for fugitive emissions management [https://static.aer.ca/prd/documents/directives/Directive060.pdf[AER Directive 60]].
 
-This OGC BP document provides a data model and API for the exchange of fugitive emissions observation data and the necessary metadata, both within and between different organizations.  For example, it can be used for leak detection and repair service providers to prepare and exchange fugitive emissions observation data with the oil and gas producers. Oil and gas producers can also use the OGC BP to exchange fugitive emissions data within the organization and with regulators.
+This OGC BP document provides a data model and API for the exchange of fugitive emissions observation data and the necessary metadata, both within and between different organizations.  For example, it can be used for leak detection and repair service providers to prepare and exchange fugitive emissions observation data with the facility operators. Facility operators can also use the OGC BP to exchange fugitive emissions data within the organization and with regulators.
 
 Venting and combustion methane emissions are out of scope in this BP. The development of BP for venting emissions and combustion emissions are on the roadmap.
 
