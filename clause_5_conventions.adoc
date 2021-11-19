@@ -18,9 +18,9 @@ All requirements and conformance tests that appear in this document are denoted 
 
 *BP*   Best Practice
 
-*CNRL* Canadian Natural Resources
+*CNRL*   Canadian Natural Resources
 
-//*CH4*
+*CH4*   Methane
 
 *EPA*   Environmental Protection Agency
 
@@ -30,11 +30,11 @@ All requirements and conformance tests that appear in this document are denoted 
 
 *GeoJSON*   Geographic JSON
 
-*GPS* Global Positioning System
+*GPS*   Global Positioning System
 
 *IANA*   Internet Assigned Numbers Authority
 
-//IPCC
+*IPCC*   Intergovernmental Panel on Climate Change
 
 *ID*   Identity Document
 
