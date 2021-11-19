@@ -143,20 +143,12 @@ The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to 
 |==================================================================================================================================
 |*Conformance Class* 2+| */conf/datamodel/feature-of-interest*
 |*Requirements* 2+| /req/datamodel/feature-of-interest/properties
-
-/req/datamodel/feature-of-interest/relations
 |*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/feature-of-interest
 
 .5+| *Test 13* 2+| /conf/datamodel/feature-of-interest/properties
 |Requirement | /req/datamodel/feature-of-interest/properties
 |Test purpose | Verify that the FeatureOfInterest entity has the mandatory properties as defined in FEM-STA Specification.
 |Test method | Inspect the full JSON object of the FeatureOfInterest entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
-|Test type | Conformance
-
-.5+| *Test 14* 2+| /conf/datamodel/feature-of-interest/relations
-|Requirement | /req/datamodel/feature-of-interest/relations
-|Test purpose | Verify that the FeatureOfInterest entity has the mandatory relations as defined in FEM-STA Specification.
-|Test method | Inspect the full JSON object of each FeatureOfInterest entity set to identify if each entity has the mandatory relations defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.
 |Test type | Conformance
 |==================================================================================================================================
 
@@ -168,7 +160,7 @@ The Fugitive Emissions Management (FEM) SensorThings API (STA) service needs to 
 |*Requirements* 2+| /req/datamodel/sensor/properties
 |*Dependency* 2+| http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/sensor
 
-.5+| *Test 15* 2+| /conf/datamodel/sensor/properties
+.5+| *Test 14* 2+| /conf/datamodel/sensor/properties
 |Requirement | /req/datamodel/sensor/properties
 |Test purpose | Verify that the Sensor entity has the mandatory properties as defined in FEM-STA Specification.
 |Test method | Inspect the full JSON object of the Sensor entity set to identify if each entity has the mandatory properties defined in the corresponding requirement. Pass if no errors are reported. Fail otherwise.

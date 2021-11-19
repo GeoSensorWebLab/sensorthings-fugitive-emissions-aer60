@@ -3,36 +3,14 @@ This document uses the terms defined in Sub-clause 5.3 of [OGC 06-121r8], which 
 
 For the purposes of this document, the following additional terms and definitions apply.
 
-=== Abbreviations
+*Facility ID*   A unique facility identification code, with 4 letters and 7 numbers (e.g., ABWP1234567), assigned by Petrinex to each facility.
 
-*AER*   Alberta Energy Regulator
+*Fugitive Emissions*   Unintentional releases of hydrocarbons to the atmosphere.
 
-*API*   Application Programming Interface
+*Fugitive Emissions Screenings*   Site-wide evaluations where the primary purpose is to identify fugitive emissions (e.g., from open thief hatches). These are less comprehensive than fugitive emission surveys.
 
-*ATS*   Alberta Township Survey
+*Fugitive Emission Surveys*   Site-wide evaluations that use equipment-based methods to detect and identify sources of fugitive emissions for repair. These surveys are considered comprehensive evaluations that can assist in reducing both small volumes and large volumes of fugitive emissions.
 
-*FEM-STA*   Fugitive Emissions Management - SensorThings API
+*Petrinex*   Canada’s Petroleum Information Network
 
-*FEMP*   Fugitive Emissions Management Program
-
-*GeoJSON*   Geographic JSON
-
-*IANA*   Internet Assigned Numbers Authority
-
-*ID*   Identity Document
-
-*JSON*   JavaScript Object Notation
-
-*LSD*   Legal Subdivisions
-
-*OGC*   Open Geospatial Consortium
-
-*STA*   SensorThings API
-
-*URI*   Uniform Resource Identifier
-
-*OGI*   Optical Gas Imaging
-
-*SWE*   Sensor Web Enablement
-
-*BP*   Best Practice
+*Site*   The area defined by the boundaries of a surface lease for upstream oil and gas facilities and wells (pads counted as one lease).
