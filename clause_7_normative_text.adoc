@@ -57,7 +57,7 @@ include::requirements/requirement_3.adoc[]
 |name |The _reporting facility's_ legal description of the Legal Subdivision (LSD) according to the https://www.alberta.ca/alberta-township-survey-system.aspx[Alberta Township Survey (ATS)] system |Character string type, and the value shall be a valid legal description of the LSD based on the ATS system |One
 |description |The description about the Location |Character string type |One
 |encodingType |The IANA media type for GeoJSON  |Character string type, and the value shall be "application/geo+json" |One
-|location |The GeoJSON polygon https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.6[[RFC7946]] represents the area of the legal description LSD |A GeoJSON Polygon object, and the value of the GeoJSON Polygon coordinates shall be the boundary of the legal description LSD |One
+|location |The GeoJSON polygon [https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.6[RFC7946]] represents the area of the legal description LSD |A GeoJSON Polygon object, and the value of the GeoJSON Polygon coordinates shall be the boundary of the legal description LSD |One
 |===
 
 ==== Requirement 4
@@ -216,7 +216,9 @@ include::requirements/requirement_12.adoc[]
 include::requirements/requirements_class_6.adoc[]
 
 ==== Requirement 13
-This requirement defines the mandatory properties of the "FeatureOfInterest" entity related to the "Observations" of the three mandatory "Datastreams." In the context of fugitive emissions, the "FeatureOfInterest" of fugitive emissions "Observation" is where the leaks occur. In AER Directive 60, the "FeatureOfInterest" is modelled as a site. In some cases, a _reporting facility_ called "Thing" can have more than one site, such as wells, controlled tanks, process units, or wellhead https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=17[[AER Manual015 Figure 1]] and https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=19[[AER Manual015 Figure 3]]. The following figure describes the relationship between a _reporting facility_ "Thing" and "FeaturesOfInterest."
+This requirement defines the mandatory properties of the "FeatureOfInterest" entity related to the "Observations" of the three mandatory "Datastreams." In the context of fugitive emissions, the "FeatureOfInterest" of fugitive emissions "Observation" is where the leaks occur. In AER Directive 60, the "FeatureOfInterest" is modelled as a site.
+In some cases, a _reporting facility_ called "Thing" can have more than one site, such as wells, controlled tanks, process units, or wellhead [https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=17[AER Manual015 Figure 1]] and [https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=19[AER Manual015 Figure 3]].
+The following figure describes the relationship between a _reporting facility_ "Thing" and "FeaturesOfInterest."
 
 [[fig-thing-featureofinterest-relationship]]
 [.text-center, width="60%"]
@@ -234,7 +236,7 @@ include::requirements/requirement_13.adoc[]
 |name |The well ID or site ID that is associated with the facility ID |CharacterString, the value SHALL be a valid well or site ID |One
 |description |Site description |CharacterString |One
 |encodingType |The IANA media type for GeoJSON  |Character string type, and the value shall be "application/geo+json" |One
-|feature |The GeoJSON polygon https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.6[[RFC7946]] represents the site boundary |A GeoJSON Polygon object, and the value of the GeoJSON Polygon coordinates shall be the boundary of the site or well |One
+|feature |The GeoJSON polygon [https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.6[RFC7946]] represents the site boundary |A GeoJSON Polygon object, and the value of the GeoJSON Polygon coordinates shall be the boundary of the site or well |One
 |===
 
 === Requirement Class: Sensor
