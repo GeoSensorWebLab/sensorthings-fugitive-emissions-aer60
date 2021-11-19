@@ -3,49 +3,23 @@ The following normative documents contain provisions that, through reference in 
 
 [NOTE]
 ====
-Insert References here. If there are no references, state “There are no normative references”.
+. https://static.aer.ca/prd/documents/directives/Directive060.pdf[AER Directive 60 (2021)]
 
-References are to follow the Springer LNCS style, with the exception that optional information may be appended to references: DOIs are added after the date and web resource references may include an access date at the end of the reference in parentheses. See examples from Springer and OGC below.
+. https://www.bcogc.ca/files/publications/Factsheets/Documentation-Glossary-v1.12-Dec-Release-2020.pdf[BC Oil and Gas Commission - Oil & Gas Glossary and Definitions VERSION 1.11 (2020)]
 
-Smith, T.F., Waterman, M.S.: Identification of Common Molecular Subsequences.
-J. Mol. Biol. 147, 195–197 (1981)
+. http://www.ipcc.ch/report/ar4/[IPCC- AR4 Climate Change (2007)]
 
-May, P., Ehrlich, H.C., Steinke, T.: ZIB Structure Prediction Pipeline: Composing
-a Complex Biological Workflow through Web Services. In: Nagel, W.E., Walter,
-W.V., Lehner, W. (eds.) Euro-Par 2006. LNCS, vol. 4128, pp. 1148–1158. Springer,
-Heidelberg (2006)
+. https://www.canada.ca/en/environment-climate-change/services/canadian-environmental-protection-act-registry/proposed-methane-regulations-additional-information.html[Canada's methane regulations (2018)]
 
-Foster, I., Kesselman, C.: The Grid: Blueprint for a New Computing Infrastructure.
-Morgan Kaufmann, San Francisco (1999)
-
-Czajkowski, K., Fitzgerald, S., Foster, I., Kesselman, C.: Grid Information Services
-for Distributed Resource Sharing. In: 10th IEEE International Symposium on High
-Performance Distributed Computing, pp. 181–184. IEEE Press, New York (2001)
-
-Foster, I., Kesselman, C., Nick, J., Tuecke, S.: The Physiology of the Grid: an Open
-Grid Services Architecture for Distributed Systems Integration. Technical report,
-Global Grid Forum (2002)
-
-National Center for Biotechnology Information, http://www.ncbi.nlm.nih.gov
+. https://www.nap.edu/read/24987/chapter/1[National Academies of Sciences, Engineering, and Medicine-
+Improving Characterization of Anthropogenic Methane Emissions in the United States (2018)]
 
 
-ISO / TC 211: ISO 19115-1:2014 Geographic information -- Metadata -- Part 1: Fundamentals (2014)
+. http://docs.opengeospatial.org/is/15-078r6/15-078r6.html[OGC: OGC 15-078r6, OGC SensorThings API Part 1: Sensing (2016)]
 
-ISO / TC 211: ISO 19157:2013 Geographic information -- Data quality (2013)
+. https://www.ogc.org/standards/swes[OGC Sensor Web Enablement (SWE)]
 
-ISO / TC 211: ISO 19139:2007 Geographic information -- Metadata -- XML schema implementation (2007)
 
-ISO / TC 211: ISO 19115-3: Geographic information -- Metadata -- Part 3: XML schemas (2016)
-
-OGC: OGC 15-097 OGC Geospatial User Feedback Standard. Conceptual Model (2016)
-
-OGC: OGC 12-019, OGC City Geography Markup Language (CityGML) Encoding Standard (2012)
-
-OGC: OGC 14-005r3, OGC IndoorGML (2014)
-
-//[http://www.ipcc.ch/report/ar4/[IPCC 2007]].
-//https://www.ogc.org/standards/swes[OGC Sensor Web Enablement (SWE)]
-//https://www.nap.edu/read/24987/chapter/1[National Academies of Sciences, Engineering, and Medicine. 2018]
-//[https://static.aer.ca/prd/documents/directives/Directive060.pdf[AER Directive 60]
+. https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-66/FullText.html[Regulations Respecting Reduction in the Release of Methane and Certain Volatile Organic Compounds (2018)]
 
 ====
