@@ -3,8 +3,8 @@ Methane (CH4) is one of the most potent greenhouse gases, and the comparative im
 
 [[fig-methane-sensor-data-examples]]
 [.text-center, width="90%"]
-.Examples of methane measurement platforms operating across a variety of spatial and temporal scales. https://www.nap.edu/read/24987/chapter/1[[FNational Academies of Sciences, Engineering, and Medicine. 2018]]
-image::https://www.nap.edu/openbook/24987/xhtml/images/img-94.jpg[Examples of methane measurement platforms]
+.Examples of methane measurement platforms operating across a variety of spatial and temporal scales. https://www.nap.edu/read/24987/chapter/1[[National Academies of Sciences, Engineering, and Medicine. 2018]]
+image::figures/FIGn.001.jpg[Examples of methane measurement platforms]
 
 This OGC Best Practice (OGC BP) defines a SensorThings API for fugitive methane emissions management. Regulations play a critical role for methane emissions reduction, and how methane emissions are detected, repaired, and managed highly dependent on the local regulation. This OGC BP is designed based on the Alberta Energy Regulator's regulatory requirement for fugitive emissions management https://static.aer.ca/prd/documents/directives/Directive060.pdf[[AER Directive 60]].
 
@@ -21,7 +21,7 @@ Figure below shows the roadmap of the different OGC BPs to be developed and thei
 [[fig-methane-emisssions-bp-roadmap]]
 [.text-center, width="90%"]
 .Methane Emissions Sensor Web Best Practice Roadmap
-image::figures/FIGn.001.png[Methane Emissions Sensor Web Roadmap]
+image::figures/FIGn.002.png[Methane Emissions Sensor Web Roadmap]
 
 === Design Goals
 
