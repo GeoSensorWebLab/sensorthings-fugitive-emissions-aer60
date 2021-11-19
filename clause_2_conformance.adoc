@@ -1,5 +1,5 @@
 == Conformance
-This Best Practice defines XXXX.
+This OGC Best Practice (OGC BP) defines a SensorThings API for fugitive methane emissions management based on the Alberta Energy Regulator’s regulatory requirement for fugitive emissions management https://www.aer.ca/regulating-development/rules-and-directives/directives/directive-060[AER Directive 60 2021-04].
 
 Conformance with this Best Practice shall be checked using all the relevant tests specified in annex a (normative) of this document.
 
