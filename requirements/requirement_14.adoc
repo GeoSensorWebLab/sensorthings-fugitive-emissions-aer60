@@ -4,6 +4,6 @@
 
  A "Sensor" in this best practice is an observation process describing the Fugitive Emissions Management Program (FEMP) that generates the observation result.
 
- The "Sensor" SHALL have the properties with the corresponding value and multiplicity listed in <<table_req15>>. {set:cellbgcolor:#FFFFFF}
+ The "Sensor" SHALL have the properties with the corresponding value and multiplicity listed in <<table_req14>>. {set:cellbgcolor:#FFFFFF}
   {set:cellbgcolor:#FFFFFF}
 |===

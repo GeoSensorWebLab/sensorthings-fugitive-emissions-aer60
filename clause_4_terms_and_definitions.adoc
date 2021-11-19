@@ -6,18 +6,33 @@ For the purposes of this document, the following additional terms and definition
 === Abbreviations
 
 *AER*   Alberta Energy Regulator
+
 *API*   Application Programming Interface
+
 *ATS*   Alberta Township Survey
+
 *FEM-STA*   Fugitive Emissions Management - SensorThings API
+
 *FEMP*   Fugitive Emissions Management Program
+
 *GeoJSON*   Geographic JSON
+
 *IANA*   Internet Assigned Numbers Authority
+
 *ID*   Identity Document
+
 *JSON*   JavaScript Object Notation
+
 *LSD*   Legal Subdivisions
+
 *OGC*   Open Geospatial Consortium
+
 *STA*   SensorThings API
+
 *URI*   Uniform Resource Identifier
+
 *OGI*   Optical Gas Imaging
+
 *SWE*   Sensor Web Enablement
+
 *BP*   Best Practice

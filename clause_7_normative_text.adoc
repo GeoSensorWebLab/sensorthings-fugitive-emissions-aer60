@@ -102,7 +102,7 @@ include::requirements/requirement_6.adoc[]
 |===
 
 ==== Requirement 7
-This requirement defines the mandatory properties and relations of the _number-of-fugitive-emissions_ "Datastream" of the _reporting facility_.
+This requirement defines the mandatory properties the _fugitive-emissions_volume_ "Datastream" of the _reporting facility_.
 
 include::requirements/requirement_7.adoc[]
 [#table_req7,reftext='{table-caption} {counter:table-num}']
@@ -173,11 +173,11 @@ include::requirements/requirement_10.adoc[]
 include::requirements/requirements_class_4.adoc[]
 
 ==== Requirement 11
-This requirement defines the mandatory properties of the _fugitive-emissions_ "ObservedProperty".
+This requirement defines the mandatory properties of the fugitive emissions "ObservedProperty".
 
 include::requirements/requirement_11.adoc[]
 [#table_req11,reftext='{table-caption} {counter:table-num}']
-.Properties of a _fugitive-emissions_ "ObservedProperty" entity
+.Properties of a fugitive emissions "ObservedProperty" entity
 [width="90%",options="header"]
 |===
 |Name |Definition |Data types and values |Multiplicity and use
@@ -191,7 +191,7 @@ include::requirements/requirement_11.adoc[]
 include::requirements/requirements_class_5.adoc[]
 
 ==== Requirement 12
-This requirement defines the mandatory properties and relations of the _number-of-fugitive-emissions_ "Observations".
+This requirement defines the mandatory properties of the _number-of-fugitive-emissions_ "Observations".
 
 include::requirements/requirement_12.adoc[]
 [#table_req12,reftext='{table-caption} {counter:table-num}']
@@ -209,7 +209,7 @@ include::requirements/requirement_12.adoc[]
 include::requirements/requirements_class_6.adoc[]
 
 ==== Requirement 13
-This requirement defines the mandatory properties and relations of the "FeatureOfInterest" entity related to the "Observations" of the three mandatory "Datastreams." In the context of fugitive emissions, the "FeatureOfInterest" of fugitive emissions "Observation" is where the leaks occur. In AER Directive 60, the "FeatureOfInterest" is modelled as a site. In some cases, a _reporting facility_ called "Thing" can have more than one site, such as wells, controlled tanks, process units, or wellhead https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=17[[AER Manual015 Figure 1]] and https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=19[[AER Manual015 Figure 3]]. The following figure describes the relationship between a _reporting facility_ "Thing" and "FeaturesOfInterest."
+This requirement defines the mandatory properties of the "FeatureOfInterest" entity related to the "Observations" of the three mandatory "Datastreams." In the context of fugitive emissions, the "FeatureOfInterest" of fugitive emissions "Observation" is where the leaks occur. In AER Directive 60, the "FeatureOfInterest" is modelled as a site. In some cases, a _reporting facility_ called "Thing" can have more than one site, such as wells, controlled tanks, process units, or wellhead https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=17[[AER Manual015 Figure 1]] and https://static.aer.ca/prd/documents/manuals/Manual015.pdf#page=19[[AER Manual015 Figure 3]]. The following figure describes the relationship between a _reporting facility_ "Thing" and "FeaturesOfInterest."
 
 [[fig-thing-featureofinterest-relationship]]
 [.text-center, width="60%"]
@@ -235,12 +235,12 @@ include::requirements/requirement_13.adoc[]
 include::requirements/requirements_class_7.adoc[]
 
 ==== Requirement 14
-This requirement defines the mandatory properties and relations of the "Sensor" entity.
+This requirement defines the mandatory properties of the "Sensor" entity.
 
 [NOTE]
 ====
 The "Sensor" entity in this best practice is not an instrument, but rather it SHALL be an observation process
-https://www.ogc.org/standards/om[ISO/OGC 19156:2001 OM_Process] describing the Fugitive Emissions Management Program (FEMP) that generates the observation result.
+https://www.ogc.org/standards/om[ISO/OGC 19156:2001 OM_Process] described the Fugitive Emissions Management Program (FEMP) that generates the observation result.
 ====
 
 include::requirements/requirement_14.adoc[]

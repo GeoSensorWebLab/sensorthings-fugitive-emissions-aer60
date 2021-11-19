@@ -42,6 +42,6 @@ can be used to unambiguously identify the requirement and the conformance class.
 * /req/datamodel/feature-of-interest/properties |FeatureOfInterest entity
 
 |/req/datamodel/sensor |
-* /req/datamodel/sensor/properties |Sensor Entity
+* /req/datamodel/sensor/properties |Sensor entity
 
 |===
