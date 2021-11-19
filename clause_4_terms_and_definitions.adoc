@@ -21,8 +21,8 @@ For the purposes of this document, the following additional terms and definition
 
 (a) in the execution of a power conferred by or under the authority of an Act, or
 
-(b) by or under the authority of the Governor in Council
+(b) by or under the authority of the Governor in Council. https://www.qp.alberta.ca/documents/Acts/R14.pdf[REGULATIONS ACT]
 
 *Fugitive Emissions Management Program*   A plan and supporting systems to systematically detect and manage fugitive emissions. Fugitive Emissions Management Programs are intended to complement a duty holder's overall emissions reduction strategy [https://static.aer.ca/prd/documents/directives/Directive060.pdf[AER Directive 60]].
 
-*Vent Emission*   The intentional controlled release of un-combusted gases directly to the atmosphere .
+*Vent Emission*   The intentional controlled release of un-combusted gases directly to the atmosphere https://www.bcogc.ca/files/publications/Factsheets/Documentation-Glossary-v1.12-Dec-Release-2020.pdf[Oil and Gas Glossary and Definitions].
