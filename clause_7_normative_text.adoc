@@ -97,7 +97,7 @@ include::requirements/requirement_6.adoc[]
 |Sensor |One mandatory |The "Observations" in a __number-of-fugitive-emissions__ "Datastream" are performed by one "Sensor". One "Sensor" MAY be used by different Datastreams.
 
 *Note:* A "Sensor" in this best practice is an observation process describing the Fugitive Emissions Management Program (FEMP) that generates the observation result.
-|ObservedProperty |One mandatory |The "Observations" of a __number-of-fugitive-emissions__ "Datastream" SHALL observe the methane _fugitive-emissions_ "ObservedProperty" as defined in Requirement 11.
+|ObservedProperty |One mandatory |The "Observations" of a __number-of-fugitive-emissions__ "Datastream" SHALL observe the methane fugitive emissions "ObservedProperty" as defined in Requirement 11.
 |Observation |Many optional |A _number-of-fugitive-emissions_ "Datastream" has zero-to-many "Observations". One Observation SHALL occur in one-and-only-one "Datastream".
 |===
 
@@ -191,7 +191,7 @@ include::requirements/requirement_11.adoc[]
 include::requirements/requirements_class_5.adoc[]
 
 ==== Requirement 12
-This requirement defines the mandatory properties of the _number-of-fugitive-emissions_ "Observations".
+This requirement defines the mandatory properties of the fugitive emissions "Observations".
 
 include::requirements/requirement_12.adoc[]
 [#table_req12,reftext='{table-caption} {counter:table-num}']
