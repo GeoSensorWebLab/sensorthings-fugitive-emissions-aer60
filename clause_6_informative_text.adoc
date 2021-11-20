@@ -1,6 +1,15 @@
 == Methane Emissions
 
-Methane (CH4) is one of the most potent greenhouse gases, and the comparative impact of methane is 25 times greater than CO2 over a 100-year period http://www.ipcc.ch/report/ar4/[[IPCC 2007]]. Methane is an invisible and odourless gas, and it is very labour intensive and time consuming in order to detect and repair the leaks. Current methane emission management solutions are fragmented and being developed without standards, ultimately leading to a complex network of incompatible sensing solutions that need to interrelate but are not possible. However there is no single methane sensing technology that can meet the accuracy, spatio-temporal resolution, and low-cost requirements. There is a need to interconnect the heterogeneous existing and emerging methane sensing technologies, ranging from satellites, drones, fixed-wing fly-overs, vehicle-based systems, continuous in-situ monitoring stations, to handheld Optical Gas Imaging (OGI) devices. An effective methane emissions management solution needs an integrated methane sensor web. OGC Sensor Web Enablement (SWE) provides the fundamental standard building blocks for the integrated methane sensor web.
+Methane (CH4) is one of the most potent greenhouse gases, and the comparative impact of methane is 25 times greater than CO2 over a 100-year period http://www.ipcc.ch/report/ar4/[[IPCC 2007]]. Global anthropogenic methane emissions by 2020 are estimated to be 9,390 million metric tons of CO2 equivalent [https://www.globalmethane.org/documents/gmi-mitigation-factsheet.pdf[Global Methane Initiative 2020]]. Approximately 50~60% of the anthropogenic methane emissions come from the following five sources: (1) agriculture (enteric fermentation-27% and manure management-3%), (2) oil and gas (24%), (3) municipal solid waste (11%), (4) coal mining (9%), and (5) wastewater (7%). Figure below shows a pie chart of the global estimated methane emissions sources in 2020.
+
+[[fig-methane-sources]]
+[.text-center, width="80%"]
+.Anthropogenic methane emissions by source 2020 [https://www.globalmethane.org/documents/gmi-mitigation-factsheet.pdf[Gobal Methane Initiative 2020]]
+image::figures/FIGn.003.png[methane emissions by sources in 2020]
+
+In the oil and gas industry vent gas and fugitive emissions are the two major sources of methane emissions. Vent gas is un-combusted gas, that is released into the atmosphere. Fugitive emissions are the unintentional releases of hydrocarbons into the atmosphere. This BP focuses on the detection and quantification of fugitive methane emissions in the oil and gas industry.
+
+Methane is an invisible and odourless gas, as a result it is very labour intensive and time consuming in order to detect and repair the leaks. Current methane emissions management solutions are fragmented and being developed without standards, ultimately leading to a complex network of incompatible sensing solutions that need to interrelate but are not possible. However there is no single methane sensing technology that can meet the accuracy, spatio-temporal resolution, and low-cost requirements. There is a need to interconnect the heterogeneous existing and emerging methane sensing technologies, ranging from satellites, drones, fixed-wing fly-overs, vehicle-based systems, continuous in-situ monitoring stations, to handheld Optical Gas Imaging (OGI) devices. An effective methane emissions management solution needs an integrated methane sensor web. OGC Sensor Web Enablement (SWE) provides the fundamental standard building blocks for the integrated methane sensor web.
 
 === Methane Emissions Sensing Technologies
 
@@ -27,7 +36,7 @@ For many years the standard leak detection practice has been https://www.epa.gov
 [[fig-ogi-flir-data]]
 [.text-center, width="60%"]
 .A field technician performs methane emission survey with an optical gas imaging camera [https://pubs.acs.org/doi/full/10.1021/acs.est.0c01285[Zimmerle et al., 2020]]
-image::figures/FIGn.003.jpeg[OGI survey]
+image::figures/FIGn.004.jpeg[OGI survey]
 
 ====	Stationary methane sensing systems
 
