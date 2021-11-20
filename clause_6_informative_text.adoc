@@ -9,8 +9,6 @@ image::figures/FIGn.003.png[methane emissions by sources in 2020]
 
 In the oil and gas industry vent gas and fugitive emissions are the two major sources of methane emissions. Vent gas is un-combusted gas, that is released into the atmosphere. Fugitive emissions are the unintentional releases of hydrocarbons into the atmosphere. This BP focuses on the detection and quantification of fugitive methane emissions in the oil and gas industry.
 
-
-
 Methane is an invisible and odourless gas, as a result it is very labour intensive and time consuming in order to detect and repair the leaks. Current methane emissions management solutions are fragmented and being developed without standards, ultimately leading to a complex network of incompatible sensing solutions that need to interrelate but are not possible. However there is no single methane sensing technology that can meet the accuracy, spatio-temporal resolution, and low-cost requirements. There is a need to interconnect the heterogeneous existing and emerging methane sensing technologies, ranging from satellites, drones, fixed-wing fly-overs, vehicle-based systems, continuous in-situ monitoring stations, to handheld Optical Gas Imaging (OGI) devices. An effective methane emissions management solution needs an integrated methane sensor web. OGC Sensor Web Enablement (SWE) provides the fundamental standard building blocks for the integrated methane sensor web.
 
 === Methane Emissions Sensing Technologies
