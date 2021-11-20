@@ -22,9 +22,10 @@ This OGC BP is the first part of the OGC Integrated Methane Sensor Web for Emiss
 The figure below shows the roadmap of the different OGC BPs to be developed and their relationship.
 
 [[fig-methane-emisssions-bp-roadmap]]
-[.text-center, width="100%"]
-.Methane emissions sensor web best practice roadmap
-image::figures/FIGn.002.png[Methane Emissions Sensor Web Roadmap]
+[.text-center, width="90%"]
+.Integrated Methane Sensor Web Best Practice Roadmap
+image::figures/FIGn.002.png[Integrated Methane Sensor Web Roadmap]
+
 
 === Design Goals
 
