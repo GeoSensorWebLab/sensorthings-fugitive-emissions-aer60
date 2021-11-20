@@ -24,8 +24,9 @@ Springer LNCS is widely used in technical and computer science journals and othe
 [[OGC2015]]
 [1] OGC: OGC Testbed 12 Annex B: Architecture. (2015).
 
-[[AERDirective60]]
-[1] https://static.aer.ca/prd/documents/directives/Directive060.pdf
+. https://static.aer.ca/prd/documents/directives/Directive060.pdf[AER Directive 60 (2021)]
+
+. Alberta Township Survey (ATS)[Alberta Township Survey (ATS)]
 
 . Atherton, E., Risk, D., Fougère, C., Lavoie, M., Marshall, A., Werring, J., Williams, J. P., and Minions, C. 2017. "Mobile measurement of methane emissions from natural gas developments in  northeastern British Columbia, Canada', Atmos. Chem. Phys., 17, 12405–12420, https://doi.org/10.5194/acp-17-12405-2017.
 
@@ -35,20 +36,22 @@ Springer LNCS is widely used in technical and computer science journals and othe
 
 . CONLEYG, S., FRANCOI, G., FALOONAD, I., R. BLAKEJ. PEISCHLAND T. B. 2016. "Methane emissions from the 2015 Aliso Canyon blowout in Los Angeles, CA", SCIENCE, Vol 351, Issue 6279, pp. 1317-1320
 
-
-Halley L. Brantley, Eben D. Thoma, William C. Squier, Birnur B. Guven, and David Lyon. (2014). "Assessment of Methane Emissions from Oil and Gas Production Pads using Mobile Measurements"
+. Halley L. Brantley, Eben D. Thoma, William C. Squier, Birnur B. Guven, and David Lyon. (2014). "Assessment of Methane Emissions from Oil and Gas Production Pads using Mobile Measurements"
 Environmental Science & Technology 2014 48 (24), 14508-14515
+
+. https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.6[IETF: The GeoJSON Format]
 
 . http://www.ipcc.ch/report/ar4/[IPCC- AR4 Climate Change (2007)]
 
 . JohnsonDavid, R., R.TynerAlexander J.Szekeres. (2021). "Blinded evaluation of airborne methane source detection using Bridger Photonics LiDAR"
 Energy & Emissions Research Laboratory, Department of Mechanical and Aerospace Engineering, Carleton University, Ottawa, ON K1S 5B6, Canada
 
-
 . https://www.epa.gov/emc/method-21-volatile-organic-compound-leaks[Method 21 - Volatile Organic Compound Leaks (2021)]
 
 . https://www.nap.edu/read/24987/chapter/1[National Academies of Sciences, Engineering, and Medicine-
 Improving Characterization of Anthropogenic Methane Emissions in the United States (2018)]
+
+http://www.opengis.net/def/observationType/OGC-OM/2.0[OGC and ISO: OGC 10-026 / ISO 19156:2011 : OM Measurements 2.0 (2011)]
 
 . http://docs.opengeospatial.org/is/15-078r6/15-078r6.html[OGC: OGC 15-078r6, OGC SensorThings API Part 1: Sensing (2016)]
 
