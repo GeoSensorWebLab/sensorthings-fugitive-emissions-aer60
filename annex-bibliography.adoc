@@ -30,7 +30,7 @@ Energy & Emissions Research Laboratory, Department of Mechanical and Aerospace E
 . https://www.nap.edu/read/24987/chapter/1[National Academies of Sciences, Engineering, and Medicine-
 Improving Characterization of Anthropogenic Methane Emissions in the United States (2018)]
 
-http://www.opengis.net/def/observationType/OGC-OM/2.0[OGC and ISO: OGC 10-026 / ISO 19156:2011 : OM Measurements 2.0 (2011)]
+. http://www.opengis.net/def/observationType/OGC-OM/2.0[OGC and ISO: OGC 10-026 / ISO 19156:2011 : OM Measurements 2.0 (2011)]
 
 . http://docs.opengeospatial.org/is/15-078r6/15-078r6.html[OGC: OGC 15-078r6, OGC SensorThings API Part 1: Sensing (2016)]
 
