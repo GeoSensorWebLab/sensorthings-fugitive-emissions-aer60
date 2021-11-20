@@ -10,35 +10,33 @@ All requirements and conformance tests that appear in this document are denoted 
 
 === Abbreviations
 
-*AER*   Alberta Energy Regulator
+*AER*    Alberta Energy Regulator
 
-*API*   Application Programming Interface
+*API*    Application Programming Interface
 
-*ATS*   Alberta Township Survey
+*ATS*    Alberta Township Survey
 
-*BP*   Best Practice
+*BP*     Best Practice
 
 *CNRL*   Canadian Natural Resources
 
-*CH4*   Methane
+*CH4*    Methane
 
-*EPA*   Environmental Protection Agency
+*EPA*    Environmental Protection Agency
 
 *FEM-STA*   Fugitive Emissions Management - SensorThings API
 
 *FEMP*   Fugitive Emissions Management Program
 
-*GeoJSON*   Geographic JSON
+*GeoJSON*   Geographic JavaScript Object Notation
 
-*GPS*   Global Positioning System
+*GPS*    Global Positioning System
 
 *IANA*   Internet Assigned Numbers Authority
 
 *IPCC*   Intergovernmental Panel on Climate Change
 
-*ID*   Identity Document
-
-*JSON*   JavaScript Object Notation
+*ID*   IDentity
 
 *LDAR*   Leak Detection and Repair
 
