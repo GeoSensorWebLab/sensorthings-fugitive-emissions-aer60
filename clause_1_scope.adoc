@@ -22,7 +22,7 @@ Figure below shows the roadmap of the different OGC BPs to be developed and thei
 [[fig-methane-emisssions-bp-roadmap]]
 [.text-center, width="90%"]
 .Integrated Methane Sensor Web Best Practice Roadmap
-image::figures/FIGn.001.png[Integrated Methane Sensor Web Roadmap]
+image::figures/FIGn.002.png[Integrated Methane Sensor Web Roadmap]
 
 === Design Goals
 
