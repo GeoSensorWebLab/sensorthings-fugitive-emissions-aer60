@@ -3,48 +3,48 @@ This document uses the terms defined in Sub-clause 5.3 of [OGC 06-121r8], which 
 
 For the purposes of this document, the following additional terms and definitions apply.
 
-*Facility ID*
+=== Facility ID
 
-  A unique facility identification code, with 4 letters and 7 numbers (e.g., ABWP1234567), assigned by Petrinex to each facility [AER Directive 60 (2021)].
+A unique facility identification code, with 4 letters and 7 numbers (e.g., ABWP1234567), assigned by Petrinex to each facility [AER Directive 60 (2021)].
 
-*Fugitive Emissions*
+=== Fugitive Emissions
 
-  Unintentional releases of hydrocarbons to the atmosphere [AER Directive 60 (2021)].
+Unintentional releases of hydrocarbons to the atmosphere [AER Directive 60 (2021)].
 
-*Fugitive Emissions Screenings*
+=== Fugitive Emissions Screenings
 
-  Site-wide evaluations where the primary purpose is to identify fugitive emissions (e.g., from open thief hatches). These are less comprehensive than fugitive emission surveys [AER Directive 60 (2021)].
+Site-wide evaluations where the primary purpose is to identify fugitive emissions (e.g., from open thief hatches). These are less comprehensive than fugitive emission surveys [AER Directive 60 (2021)].
 
-*Fugitive Emission Surveys*
+=== Fugitive Emission Surveys
 
-  Site-wide evaluations that use equipment-based methods to detect and identify sources of fugitive emissions for repair. These surveys are considered comprehensive evaluations that can assist in reducing both small volumes and large volumes of fugitive emissions [AER Directive 60 (2021)].
+Site-wide evaluations that use equipment-based methods to detect and identify sources of fugitive emissions for repair. These surveys are considered comprehensive evaluations that can assist in reducing both small volumes and large volumes of fugitive emissions [AER Directive 60 (2021)].
 
-*Petrinex*
+=== Petrinex
 
-  Canada’s Petroleum Information Network
+Canada’s Petroleum Information Network
 
-*Site*
+=== Site
 
-  The area defined by the boundaries of a surface lease for upstream oil and gas facilities and wells (pads counted as one lease) [AER Directive 60 (2021)].
+The area defined by the boundaries of a surface lease for upstream oil and gas facilities and wells (pads counted as one lease) [AER Directive 60 (2021)].
 
-*Leak*
+=== Leak
 
-  A release of hydrocarbons from an equipment component is a leak if [Regulations Respecting Reduction in the Release of Methane and Certain Volatile Organic Compounds (2018)]
-  * the release consists of at least 500 ppmv of hydrocarbons, as determined by an inspection conducted by means of an eligible portable monitoring instrument in accordance with EPA Method 21; or
-  * the release is detected
-  ** during an inspection conducted by means of an eligible optical gas-imaging instrument, or
-  ** by means of an auditory method, an olfactory method or a visual method, including the observation of the dripping of hydrocarbon liquids from the equipment component.
+A release of hydrocarbons from an equipment component is a leak if [Regulations Respecting Reduction in the Release of Methane and Certain Volatile Organic Compounds (2018)]
 
-*Local Regulation*
+* (a) the release consists of at least 500 ppmv of hydrocarbons, as determined by an inspection conducted by means of an eligible portable monitoring instrument in accordance with EPA Method 21; or
+* (b) the release is detected
+** (i) during an inspection conducted by means of an eligible optical gas-imaging instrument, or
+** (ii) by means of an auditory method, an olfactory method or a visual method, including the observation of the dripping of hydrocarbon liquids from the equipment component.
 
-  The federal regulations that apply to methane in the upstream oil and gas sector aim to control methane emissions and also reduce the amount of volatile organic compounds (VOCs) released into the air
-  [Canada's methane regulations (2018)].
+=== Local Regulation
 
-*Fugitive Emissions Management Program*
+The federal regulations that apply to methane in the upstream oil and gas sector aim to control methane emissions and also reduce the amount of volatile organic compounds (VOCs) released into the air [Canada's methane regulations (2018)].
 
-  A plan and supporting systems to systematically detect and manage fugitive emissions.
-  Fugitive Emissions Management Programs are intended to complement a duty holder's overall emissions reduction strategy [AER Directive 60 (2021)].
+=== Fugitive Emissions Management Program
 
-*Vent Emission*
+A plan and supporting systems to systematically detect and manage fugitive emissions.
+Fugitive Emissions Management Programs are intended to complement a duty holder's overall emissions reduction strategy [AER Directive 60 (2021)].
 
-    The intentional controlled release of un-combusted gases directly to the atmosphere [Oil and Gas Glossary and Definitions (2020)].
+=== Vent Emission
+
+The intentional controlled release of un-combusted gases directly to the atmosphere [Oil and Gas Glossary and Definitions (2020)].
