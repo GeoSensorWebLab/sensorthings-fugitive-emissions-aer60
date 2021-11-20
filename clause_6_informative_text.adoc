@@ -6,7 +6,7 @@ Methane (CH4) is one of the most potent greenhouse gases, and the comparative im
 
 Methane emissions sensing technologies can be categorized by the methane sensor types or by the methane sensing platforms. Based on its sensing principles, methane sensors can be categorized into the following types: (1) optical sensors, (2) calorimetric sensors, (3) pyroelectric sensors, (4) semiconducting metal oxide sensors, and (5) electrochemical sensors. Readers interested in the details of different methane sensing principles can refer to [https://www.mdpi.com/2411-5134/5/3/28/htm[Aldhafeeri 2020]], and it provides a comprehensive review of methane gas detection sensors, including the recent development and future perspectives. For the leak detection and repair applications, optical sensors, either laser spectroscopy or imaging spectrometry, are the most common sensor type being used. The following table summarize their advantages and disadvantages.
 
-.Methane sensor types, their advantages and disadvantages [adapted from [https://www.mdpi.com/2411-5134/5/3/28/htm[Aldhafeeri 2020] Table 1]
+.Methane sensor types, their advantages and disadvantages adapted from [https://www.mdpi.com/2411-5134/5/3/28/htm[Aldhafeeri 2020]] - Table 1
 [width="90%",options="header"]
 |===
 |Methane Sensor Types |Advantages |Disadvantages
