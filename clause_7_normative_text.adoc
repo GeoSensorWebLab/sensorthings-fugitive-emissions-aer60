@@ -207,7 +207,7 @@ include::requirements/requirement_12.adoc[]
 |===
 |Name |Definition |data types and values |Multiplicity and use
 |phenomenonTime |The time period of when the "Observation" happens. |TM_Period (ISO 8601 Time Interval) |One
-|result |The _number-of-fugitive-emissions_ |Integer |One
+|result |The _number-of-fugitive-emissions_ |Depending on Observation type |One
 |parameters |Key-value pairs describing an event-specifc parameter. |The value SHALL be a JSON object, with a key of "Survey or Screening Type", and the corresponding value SHALL be one of the following: "ALTFEMP", "SITESURVEY", "TANKSURVEY", "WELLSCREENING" |One
 |===
 
@@ -259,7 +259,7 @@ include::requirements/requirement_14.adoc[]
 |===
 |Name |Definition |Data types and values |Multiplicity and use
 |name |Provides a label for the "Sensor" entity, and it should be the descriptive name of the FEMP that generates the fugitive emissions observation results |CharacterString |One
-|description |The description of the FEMP  |CharacterString |One
+|description |The description of the FEMP |CharacterString |One
 |encodingType |The encoding type of the metadata property. |Character string type, and the value shall be "application/pdf" or "text/html" |One
 |metadata |This value depends on the value of the encodingType. The value SHALL be a resolvable URI, linking to either a PDF document or an HTML page, describing the FEMP used to generate the fugitive emissions observation results. |The value SHALL be a resolvable URI. |One
 |===
